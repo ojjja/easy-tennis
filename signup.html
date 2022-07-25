@@ -68,9 +68,9 @@
              </fieldset>
 
              <fieldset>
-                <legend>Address details</legend>
+                       <legend>Address details</legend>
 
-                <label for="address">Address</label>
+                       <label for="address">Address</label>
                        <input id="address" type="text" name="address" placeholder="Your address" required>
 
                        <label for="zipcode">Zip Code</label>
@@ -81,13 +81,49 @@
             </fieldset>
 
             <fieldset>
-                <legend>Program details</legend>
+                
+                       <legend>Program details</legend>
+                <div>
+                       <label for="program">Program</label>
+                       <select name="program" id="program" required>
+                       <option value="morning tennis">Morning tennis</option>
+                       <option value="lunch tennis">Lunch tennis</option>
+                       <option value="afternoon tennis">Afternoon tennis</option>
+                       <option value="children tennis">Children tennis</option>
+                       <option value="senior tennis">Senior tennis</option>
+                       <option value="weekend tennis">Weekend tennis</option>
+                       </select>
+                </div>
+                <div>       
+                       <label for="days">Days a week</label>
+                       <select name="days" id="days" required>
+                       <option value="one day">One day</option>
+                       <option value="two days">Two days</option>
+                       <option value="tree days">Three days</option>
+                       <option value="four days">Four days</option>
+                       </select>
+                </div> 
+                <div>
+                       <input type="checkbox" id="monday" name="monday">
+                       <label for="monday">Monday</label>
+                       
+                       <input type="checkbox" id="thusday" name="thusday">
+                       <label for="thusday">Thusday</label>
+
+                       <input type="checkbox" id="wednesday" name="wednesday">
+                       <label for="wednesday">Wednesday</label>
+
+                       <input type="checkbox" id="thursday" name="thursday">
+                       <label for="thursday">Thursday</label>
+
+                       <input type="checkbox" id="friday" name="friday">
+                       <label for="friday">Friday</label>
+
+                </div>     
+
             </fieldset>
         </form>
 
-
-
-        
     </main>
     <!-- Our contact information and if they whant to follow ous in social media-->
     <footer>
