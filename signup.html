@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,20 +16,23 @@
     <!-- my project name -->
     <title>easy-tennis</title>
 </head>
+
 <body>
     <header>
         <!-- a tennisball with my project name that link you to index page"when you click"-->
         <a href="index.html" title="Click me!">
             <h1>EASY TENNIS</h1>
         </a>
-         <!-- a menu with tree options you can choose where you want to go with a direct link-->
+        <!-- a menu with tree options you can choose where you want to go with a direct link-->
         <nav>
             <ul>
                 <li>
-                    <a href="signup.html" aria-label="jump to the signup web page" class="active">Sign Up</a> <!-- where you submit a declaration of intresst-->
+                    <a href="signup.html" aria-label="jump to the signup web page" class="active">Sign Up</a>
+                    <!-- where you submit a declaration of intresst-->
                 </li>
                 <li>
-                    <a href="play.html" aria-label="jump to the play web page">Play</a> <!-- where you read about the available tennis programms-->
+                    <a href="play.html" aria-label="jump to the play web page">Play</a>
+                    <!-- where you read about the available tennis programms-->
                 </li>
                 <li>
                     <a href="index.html" aria-label="jump to the index web page">Home</a> <!-- startpage-->
@@ -38,91 +42,95 @@
     </header>
     <!-- this is tha main content of this document splitet into sevrel sections-->
     <main>
-           <h2>Sign Up Today</h2>
+        <h2>Sign Up Today</h2>
 
-        <form action="https://formdump.codeinstitute.net" method="post">
-             <fieldset>
-                       <legend>Personal data</legend>
+        <form action="https://formdump.codeinstitute.net" method="post" target="_blank">
+            <fieldset>
+                <legend>Personal data</legend>
 
-                       <label for="first-name">First Name</label>
-                       <input id="first-name" type="text" name="first-name" placeholder="Your first name" required>
+                <label for="first-name">First Name</label>
+                <input id="first-name" type="text" name="first-name" placeholder="Your first name" required>
 
-                       <label for="surname">Surname</label>
-                       <input id="surname" type="text" name="surname" placeholder="Your surname" required>
+                <label for="surname">Surname</label>
+                <input id="surname" type="text" name="surname" placeholder="Your surname" required>
 
-                       <label for="email">Email</label>
-                       <input id="email" type="email" name="email" placeholder="Your email" required>
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" placeholder="Your email" required>
 
-                       <label for="mobilphone">Mobile phone</label>
-                       <input id="mobilphone" type="tel" name="mobilphone" placeholder="Your mobilphone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-                       <small>Format: 123-456-7890</small>
+                <label for="mobilphone">Mobile phone</label>
+                <input id="mobilphone" type="tel" name="mobilphone" placeholder="Your mobilphone" required
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                <small>Format: 123-456-7890</small>
 
-                       <label for="age">Age</label>
-                       <input id="age" type="number" name="age" placeholder="Your age" required min="7" max="90">
+                <label for="age">Age</label>
+                <input id="age" type="number" name="age" placeholder="Your age" required min="7" max="90">
 
-                       <label for="gender">Gender</label>
-                       <select name="gender" id="gender">
-                       <option value="men">men</option>
-                       <option value="women">Women</option>
-                      
-                       </select>
-             </fieldset>
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender" required>
+                    <option value="" disabled selected>select options</option>
+                    <option value="men">men</option>
+                    <option value="women">Women</option>
 
-             <fieldset>
-                       <legend>Address details</legend>
-
-                       <label for="address">Address</label>
-                       <input id="address" type="text" name="address" placeholder="Your address" required>
-
-                       <label for="zipcode">Zip Code</label>
-                       <input id="zipcode" type="number" name="zipcode" placeholder="Your zip code" required>
-
-                       <label for="city">City</label>
-                       <input id="city" type="text" name="city" placeholder="Your city" required>
+                </select>
             </fieldset>
 
             <fieldset>
-                
-                       <legend>Program details</legend>
+                <legend>Address details</legend>
+
+                <label for="address">Address</label>
+                <input id="address" type="text" name="address" placeholder="Your address" required>
+
+                <label for="zipcode">Zip Code</label>
+                <input id="zipcode" type="number" name="zipcode" placeholder="Your zip code" required>
+
+                <label for="city">City</label>
+                <input id="city" type="text" name="city" placeholder="Your city" required>
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Program details</legend>
                 <div>
-                       <label for="program">Program</label>
-                       <select name="program" id="program">
-                       <option value="morning tennis">Morning tennis</option>
-                       <option value="lunch tennis">Lunch tennis</option>
-                       <option value="afternoon tennis">Afternoon tennis</option>
-                       <option value="children tennis">Children tennis</option>
-                       <option value="senior tennis">Senior tennis</option>
-                       </select>
+                    <label for="program">Program</label>
+                    <select name="program" id="program" required>
+                        <option value="" disabled selected>select options</option>
+                        <option value="morning tennis">Morning tennis</option>
+                        <option value="lunch tennis">Lunch tennis</option>
+                        <option value="afternoon tennis">Afternoon tennis</option>
+                        <option value="children tennis">Children tennis</option>
+                        <option value="senior tennis">Senior tennis</option>
+                    </select>
                 </div>
-                <div>       
-                       <label for="days">Days a week</label>
-                       <select name="days" id="days">
-                       <option value="one day">One day</option>
-                       <option value="two days">Two days</option>
-                       <option value="tree days">Three days</option>
-                       <option value="four days">Four days</option>
-                       </select>
-                </div> 
                 <div>
-                    <p>Choose playing days</p>    
-                    
+                    <label for="days">Days a week</label>
+                    <select name="days" id="days" required>
+                        <option value="" disabled selected>select options</option>
+                        <option value="one day">One day</option>
+                        <option value="two days">Two days</option>
+                        <option value="tree days">Three days</option>
+                        <option value="four days">Four days</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Choose playing days</p>
 
-                       <input type="checkbox" id="monday" name="monday" required>
-                       <label for="monday">Monday</label>
-                       
-                       <input type="checkbox" id="thusday" name="thusday">
-                       <label for="thusday">Thusday</label>
 
-                       <input type="checkbox" id="wednesday" name="wednesday">
-                       <label for="wednesday">Wednesday</label>
+                    <input type="checkbox" id="monday" name="monday">
+                    <label for="monday">Monday</label>
 
-                       <input type="checkbox" id="thursday" name="thursday">
-                       <label for="thursday">Thursday</label>
+                    <input type="checkbox" id="tuesday" name="tuesday">
+                    <label for="tuesday">Tuesday</label>
 
-                       <input type="checkbox" id="friday" name="friday">
-                       <label for="friday">Friday</label>
+                    <input type="checkbox" id="wednesday" name="wednesday">
+                    <label for="wednesday">Wednesday</label>
 
-                </div>     
+                    <input type="checkbox" id="thursday" name="thursday">
+                    <label for="thursday">Thursday</label>
+
+                    <input type="checkbox" id="friday" name="friday">
+                    <label for="friday">Friday</label>
+
+                </div>
 
             </fieldset>
             <fieldset>
@@ -142,29 +150,34 @@
     </main>
     <!-- Our contact information and if they whant to follow ous in social media-->
     <footer>
-       <div>
-        <h4>Adress: Blackrock</h4>
-        <h4>E-mail: easytennis@tennisclub.com</h4>
-        <h4>Phone: +35 554 125 44</h4>
-       </div> 
+        <div>
+            <h4>Adress: Blackrock</h4>
+            <h4>E-mail: easytennis@tennisclub.com</h4>
+            <h4>Phone: +35 554 125 44</h4>
+        </div>
 
-       <ul>
+        <ul>
             <li>
-                <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Visit our twitter page(open in a new tab)"><i class="fab fa-twitter"></i></a>
+                <a href="https://twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our twitter page(open in a new tab)"><i class="fab fa-twitter"></i></a>
             </li>
             <li>
-                <a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Visit our instagram page(open in a new tab)"><i class="fab fa-instagram"></i></a>
+                <a href="https://instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our instagram page(open in a new tab)"><i class="fab fa-instagram"></i></a>
             </li>
             <li>
-                <a href="http://www.faccebok.com/" target="_blank" rel="noopener" aria-label="Visit our faccebok page(open in a new tab)"><i class="fab fa-facebook"></i></a>
+                <a href="http://www.faccebok.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our faccebok page(open in a new tab)"><i class="fab fa-facebook"></i></a>
             </li>
             <li>
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our youtube page(open in a new tab)"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our youtube page(open in a new tab)"><i class="fab fa-youtube"></i></a>
             </li>
-       </ul>
+        </ul>
     </footer>
 
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/6a00a27dd5.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
