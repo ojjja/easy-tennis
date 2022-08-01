@@ -10,3 +10,41 @@ body{
     font-family:lato,sans-serif;
     font-weight: 300;
 }
+
+header{
+    margin: 40px;
+    padding: 60px;
+    border: inset;
+    font-family: lato, sans-serif;
+}
+
+h1{
+    background-color: bisque;
+    margin: 10px;
+    padding: 30px;
+    font-family: lato, sans-serif;
+    float: left;
+    position: relative;
+    bottom: 59px;
+    line-height: 30px;
+
+}
+
+nav{
+    background-color: blanchedalmond;
+    margin-right: 10px;
+    padding: 30px;
+    font-family: lato, sans-serif;
+     
+    position: relative;
+    bottom: 59px;
+    line-height: 30px;
+    text-transform: uppercase;
+    
+}
+
+li{
+    list-style-type: none;
+    float:right;
+    margin-right: 10px;
+}
