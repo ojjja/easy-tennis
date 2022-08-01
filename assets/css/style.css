@@ -9,21 +9,28 @@ border: none;
 body{
     font-family:lato,sans-serif;
     font-weight: 300;
+    background-color: antiquewhite;
 }
 
 header{
+    background-color: gray;
     margin: 40px;
     padding: 60px;
     border: inset;
     font-family: lato, sans-serif;
 }
 
+a{
+    background-color: blue; 
+    color: white; 
+}
+
 h1{
-    background-color: bisque;
+    background-color: red;
     margin: 10px;
     padding: 30px;
     font-family: lato, sans-serif;
-    float: left;
+    
     position: relative;
     bottom: 59px;
     line-height: 30px;
@@ -31,20 +38,30 @@ h1{
 }
 
 nav{
-    background-color: blanchedalmond;
+    background-color: orangered;
     margin-right: 10px;
     padding: 30px;
     font-family: lato, sans-serif;
-     
     position: relative;
     bottom: 59px;
     line-height: 30px;
     text-transform: uppercase;
     
+    
+}
+
+ul {
+    background-color: red;
+    margin: 10px;
+    border: dashed;
+    padding:10px;
+    
 }
 
 li{
     list-style-type: none;
-    float:right;
+    
     margin-right: 10px;
+    background-color: green;
+    
 }
