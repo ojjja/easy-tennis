@@ -18,11 +18,20 @@ header{
     padding: 60px;
     border: inset;
     font-family: lato, sans-serif;
+    width: 50%;
+    height: 250px;
 }
 
 a{
     background-color: blue; 
     color: white; 
+    margin: 6px;
+    padding: 3px;
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+   
 }
 
 h1{
@@ -34,7 +43,8 @@ h1{
     position: relative;
     bottom: 59px;
     line-height: 30px;
-
+    width: 30%;
+    border-style: double;
 }
 
 nav{
@@ -45,7 +55,7 @@ nav{
     position: relative;
     bottom: 59px;
     line-height: 30px;
-    text-transform: uppercase;
+    
     
     
 }
@@ -56,6 +66,7 @@ ul {
     border: dashed;
     padding:10px;
     
+    
 }
 
 li{
@@ -63,5 +74,6 @@ li{
     
     margin-right: 10px;
     background-color: green;
+    text-align: right;
     
 }
