@@ -18,7 +18,7 @@ header{
     padding: 60px;
     border: inset;
     font-family: lato, sans-serif;
-    width: 50%;
+    width: 100%;
     height: 250px;
 }
 
@@ -31,34 +31,34 @@ a{
     text-transform: uppercase;
     text-decoration: none;
     
+    
+    
+    
    
 }
 
 h1{
     background-color: red;
-    margin: 10px;
-    padding: 30px;
+    margin: 0px;
+    padding: 0px;
     font-family: lato, sans-serif;
-    
-    position: relative;
-    bottom: 59px;
+    width: 50%;
     line-height: 30px;
-    width: 30%;
     border-style: double;
-    position: absolute;
-    top: 30px;
+    float: left;
+    text-align: center;
     
 }
 
 nav{
     background-color: orangered;
-    margin-right: 10px;
-    padding: 30px;
+    margin-right: 0px;
+    padding: 0px;
     font-family: lato, sans-serif;
-    position: relative;
-    bottom: 59px;
     line-height: 30px;
-    
+    float: right;
+    width: 50%;
+    text-align: center;
     
     
 }
@@ -69,6 +69,7 @@ ul {
     border: dashed;
     padding:10px;
     
+   
     
 }
 
