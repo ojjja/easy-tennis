@@ -15,10 +15,10 @@ body{
 header{
     background-color: gray;
     margin: 40px;
-    padding: 60px;
+    padding: 40px;
     border: inset;
     font-family: lato, sans-serif;
-    width: 100%;
+    width: 90%;
     height: 250px;
 }
 
@@ -30,11 +30,6 @@ a{
     text-align: right;
     text-transform: uppercase;
     text-decoration: none;
-    
-    
-    
-    
-   
 }
 
 h1{
@@ -42,11 +37,12 @@ h1{
     margin: 0px;
     padding: 0px;
     font-family: lato, sans-serif;
-    width: 50%;
+    width: 45%;
     line-height: 30px;
     border-style: double;
     float: left;
     text-align: center;
+    
     
 }
 
@@ -57,7 +53,7 @@ nav{
     font-family: lato, sans-serif;
     line-height: 30px;
     float: right;
-    width: 50%;
+    width: 45%;
     text-align: center;
     
     
