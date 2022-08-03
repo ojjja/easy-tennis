@@ -9,73 +9,57 @@ border: none;
 body{
     font-family:lato,sans-serif;
     font-weight: 300;
-    background-color: antiquewhite;
 }
 
 header{
-    background-color: gray;
-    margin: 40px;
-    padding: 40px;
+    background-color: blue;
+    margin: 5px;
+    padding: 10px;
     border: inset;
     font-family: lato, sans-serif;
-    width: 90%;
-    height: 250px;
+    width: 97%;
+    height: 50px;
 }
 
 a{
-    background-color: blue; 
     color: white; 
-    margin: 6px;
-    padding: 3px;
     text-align: right;
     text-transform: uppercase;
     text-decoration: none;
-}
+    }
+
+a:hover {
+    color: black;
+    text-decoration-line: underline;
+    font-size: 120%;
+  }
 
 h1{
-    background-color: red;
-    margin: 0px;
-    padding: 0px;
     font-family: lato, sans-serif;
-    width: 45%;
-    line-height: 30px;
-    border-style: double;
+    width: 49%;
+    line-height: 50px;
     float: left;
-    text-align: center;
-    
-    
+    text-align: left;
+    margin: auto;
+    font-size: 300%;
+    margin-left: 20px;
 }
 
 nav{
-    background-color: orangered;
-    margin-right: 0px;
-    padding: 0px;
     font-family: lato, sans-serif;
-    line-height: 30px;
+    line-height: 50px;
     float: right;
-    width: 45%;
-    text-align: center;
-    
-    
-}
-
-ul {
-    background-color: red;
-    margin: 10px;
-    border: dashed;
-    padding:10px;
-    
-   
-    
+    width: 49%;
+    text-align: right;
+    margin: auto; 
 }
 
 li{
     list-style-type: none;
-    margin-right: 20px;
-    background-color: green;
     text-align: center;
     display: inline-block;
-    width: 29%;
-    
-    
+    width: auto;
+    margin: auto;
+    font-size: 110%;
+    margin-right: 20px;
 }
