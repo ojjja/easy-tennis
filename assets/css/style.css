@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    background-color: blue;
+    background-color: darkblue;
     margin: 5px;
     padding: 10px;
     border: inset;
@@ -29,9 +29,10 @@ a{
     }
 
 a:hover {
-    color: black;
     text-decoration-line: underline;
     font-size: 120%;
+    
+    text-decoration-style: double;
   }
 
 h1{
@@ -63,3 +64,4 @@ li{
     font-size: 110%;
     margin-right: 20px;
 }
+
