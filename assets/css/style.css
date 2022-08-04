@@ -31,7 +31,6 @@ a{
 a:hover {
     text-decoration-line: underline;
     font-size: 120%;
-    
     text-decoration-style: double;
   }
 
@@ -65,3 +64,33 @@ li{
     margin-right: 20px;
 }
 
+footer{
+    background-color: darkblue;
+    margin: 5px;
+    padding: 10px;
+    border: inset;
+    font-family: lato, sans-serif;
+    width: 97%;
+    height: 50px;
+}
+
+footer > div {
+    color: white;
+    float: left;
+    font-family: lato, sans-serif;
+    margin-left: 20px;
+}
+
+footer > ul{
+    float: right;
+    width: 49%;
+    text-align: right; 
+    margin-right: 20px;
+    font-size: 110%;
+    line-height: 50px;
+    
+}
+
+footer > ul a:hover {
+    font-size: 150%;
+  }
