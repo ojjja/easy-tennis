@@ -11,6 +11,8 @@ body{
     font-weight: 300;
 }
 
+/* style logo and menu*/
+
 header{
     background-color: darkblue;
     margin: 5px;
@@ -63,6 +65,38 @@ li{
     font-size: 110%;
     margin-right: 20px;
 }
+/* tennisimage*/
+#tennisimage{
+    height: 600px;
+    width: 97%;
+    background: url(../images/pexels-todd-trapani-2339377\ \(1\).jpg)no-repeat center center;
+    background-size: cover;
+    position: relative; 
+    margin: 5px;
+    padding: 10px;
+}
+
+#covertext{
+    background-color: lightblue;
+    font-size: 150%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    
+
+    width: 350px;
+    height: 150px;
+
+    padding: 20px;
+    margin: 20px;
+
+    bottom: 450px;
+    right: 150px;
+    position: absolute;
+    
+}
+
+
+/* style footer*/
 
 footer{
     background-color: darkblue;
