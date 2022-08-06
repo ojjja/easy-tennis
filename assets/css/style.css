@@ -65,6 +65,13 @@ li{
     font-size: 110%;
     margin-right: 20px;
 }
+
+/* main*/
+#font{
+    font-family:lato,sans-serif;
+    font-weight: 300;  
+}
+
 /* tennisimage*/
 #tennisimage{
     height: 600px;
@@ -88,8 +95,14 @@ li{
     bottom: 300px;
     left: 150px;
     position: absolute;
-    
 }
+
+
+#slogan{
+    font-family:oswald,sans-serif;
+    font-weight: 300;
+}
+
 
 
 /* style footer*/
