@@ -105,8 +105,19 @@ li{
 }
 
 /* why play tennis with us*/
-#frame{
+#left{
+    float: left;
+    width: 33%;
+}
 
+#right{
+    float: right;
+    width: 33%;
+}
+
+#center{
+    width: 33%;
+    margin: 0 auto;
 }
 
 /* weekly scheduele*/
