@@ -66,6 +66,7 @@ li{
     margin-right: 20px;
 }
 
+
 /* main*/
 #font{
     font-family:lato,sans-serif;
@@ -103,7 +104,59 @@ li{
     font-weight: 300;
 }
 
+/* weekly scheduele*/
+#schedule{
+    background-color: lightblue;
+    margin: 5px;
+    padding: 10px;
+    font-family: lato, sans-serif;
+    width: 97%;
+}
 
+#scheduleheading{
+    margin: 10px;
+    text-shadow: ;
+}
+
+#textcover{
+    background-color: darkblue;
+    opacity: 0.8;
+    font-size: 150%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    width: 400px;
+    height: 50px;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    float: right;
+    text-align: center;
+}
+
+.timeheading{
+    font-weight: bold;
+}
+
+th{
+    letter-spacing: 2px;
+    font-size: 120%;
+    text-decoration: underline;
+    padding: 3px;
+}
+
+tr{
+   text-align: right;
+}
+
+table{
+    margin: 10px;
+}
+
+td{
+    margin: 2px;
+    padding: 2px;
+    font-weight: bold;
+}
 
 /* style footer*/
 
@@ -130,8 +183,7 @@ footer > ul{
     text-align: right; 
     margin-right: 20px;
     font-size: 110%;
-    line-height: 50px;
-    
+    line-height: 50px;  
 }
 
 footer > ul a:hover {
