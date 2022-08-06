@@ -93,7 +93,7 @@ li{
     height: 200px;
     padding: 20px;
     margin: 20px;
-    bottom: 300px;
+    bottom: 340px;
     left: 150px;
     position: absolute;
 }
@@ -105,20 +105,51 @@ li{
 }
 
 /* why play tennis with us*/
-#left{
-    float: left;
-    width: 33%;
+
+#relative{
+    position: relative;
 }
 
-#right{
-    float: right;
-    width: 33%;
+#headabsolute{
+    position: absolute;
+    width: 97%;
+    height: 200px;
+    left: 70px;
+    bottom: 90px;  
 }
 
-#center{
-    width: 33%;
-    margin: 0 auto;
+#firstabsolut{
+    position: absolute;
+    width: 97%;
+    height: 200px;
+    left: 70px;
+    bottom: 40px;
 }
+
+#secondabsolut{
+    position: absolute;
+    width: 97%;
+    height: 200px;
+    left: 70px;
+    bottom: -10px;
+}
+
+#thirdabsolut{
+    position: absolute;
+    width: 97%;
+    height: 200px;
+    left: 70px;
+    bottom: -60px;
+}
+
+#fourthabsolut{
+    position: absolute;
+    width: 97%;
+    height: 200px;
+    left: 70px;
+    bottom: -110px;
+}
+
 
 /* weekly scheduele*/
 #schedule{
