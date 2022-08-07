@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
-*{
-margin: 0;
-padding: 0;
-border: none;
-}
+
 
 body{
     font-family:lato,sans-serif;
@@ -236,3 +232,29 @@ footer > ul{
 footer > ul a:hover {
     font-size: 150%;
   }
+
+  /* easy tennis program*/
+
+#programheading{
+    margin: 10px;
+}
+
+.programleft{
+    float: left;
+    width: 30%;
+    height: 200px;
+}
+
+.programcenter{
+    margin: auto;
+    width: 30%;
+    height: 200px;
+}
+
+.programright{
+    float: right;
+    width: 30%;
+    height: 200px;
+
+}
+
