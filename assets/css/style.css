@@ -17,7 +17,7 @@ header{
     height: 50px;
 }
 
-a{
+header a{
     color: white; 
     text-align: right;
     text-transform: uppercase;
@@ -30,7 +30,7 @@ a:hover {
     text-decoration-style: double;
   }
 
-h1{
+header h1{
     font-family: lato, sans-serif;
     width: 49%;
     line-height: 50px;
@@ -41,7 +41,7 @@ h1{
     margin-left: 20px;
 }
 
-nav{
+header nav{
     font-family: lato, sans-serif;
     line-height: 50px;
     float: right;
@@ -50,7 +50,7 @@ nav{
     margin: auto; 
 }
 
-li{
+header li{
     list-style-type: none;
     text-align: center;
     display: inline-block;
