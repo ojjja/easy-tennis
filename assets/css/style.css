@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
+
+*{
+    margin: 0;
+}
+
 body{
     font-family:lato,sans-serif;
     font-weight: 300;
@@ -11,7 +16,6 @@ header{
     background-color: darkblue;
     margin: 5px;
     padding: 10px;
-    border: inset;
     font-family: lato, sans-serif;
     width: 97%;
     height: 50px;
@@ -47,7 +51,6 @@ header nav{
     float: right;
     width: 49%;
     text-align: right;
-    margin: auto; 
 }
 
 header li{
@@ -77,6 +80,8 @@ header li{
     margin: 5px;
     padding: 10px;
 }
+
+
 
 #covertext{
     background-color: lightblue;
@@ -156,7 +161,6 @@ header li{
 
 #scheduleheading{
     margin: 10px;
-    text-shadow: ;
 }
 
 #textcover{
@@ -205,7 +209,6 @@ footer{
     background-color: darkblue;
     margin: 5px;
     padding: 10px;
-    border: inset;
     font-family: lato, sans-serif;
     width: 97%;
     height: 50px;
@@ -218,14 +221,31 @@ footer > div {
     margin-left: 20px;
 }
 
-footer > ul{
+footer  ul{
+    font-family: lato, sans-serif;
+    line-height: 50px;
     float: right;
     width: 49%;
-    text-align: right; 
-    margin-right: 20px;
-    font-size: 110%;
-    line-height: 50px;  
+    text-align: right;
 }
+
+footer li{
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    font-size: 110%;
+    margin-right: 20px;
+}
+
+footer a{
+    color: white; 
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style-type: none;
+    }
 
 footer > ul a:hover {
     font-size: 150%;
