@@ -260,24 +260,25 @@ footer > ul a:hover {
 
 #programheading{
     margin: 10px;
+    border: dotted;
 }
 
-.programleft{
-    float: left;
-    width: 30%;
-    height: 200px;
-}
+.flexcontainerfirst {
+    display: flex;
+    background-color: lightblue;
+    width: 97%;
+    margin: 5px;
+    padding: 10px;
+    font-family: lato, sans-serif;
+  }
 
-.programcenter{
-    margin: auto;
-    width: 30%;
-    height: 200px;
-}
+  .flexcontainersecond {
+    display: flex;
+    background-color: lightblue;
+    width: 97%;
+    margin: 5px;
+    padding: 10px;
+    font-family: lato, sans-serif;
+  }
 
-.programright{
-    float: right;
-    width: 30%;
-    height: 200px;
-
-}
 
