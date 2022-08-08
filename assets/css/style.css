@@ -261,6 +261,9 @@ footer > ul a:hover {
 #programheading{
     margin: 10px;
     border: dotted;
+    width: 97%;
+    margin: 5px;
+    padding: 10px;
 }
 
 .flexcontainerfirst {
@@ -280,13 +283,5 @@ footer > ul a:hover {
     padding: 10px;
     font-family: lato, sans-serif;
   }
-  .programleft{
-        margin: 20px;
-  }
-  .programcenter{
 
-  }
-  .programright{
-     margin-right: 20px;
-  }
 
