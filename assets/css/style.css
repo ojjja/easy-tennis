@@ -89,18 +89,12 @@ header li{
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     width: 400px;
-    height: 200px;
+    height: 150px;
     padding: 20px;
     margin: 20px;
-    bottom: 340px;
+    bottom: 360px;
     left: 150px;
     position: absolute;
-}
-
-
-#slogan{
-    font-family:oswald,sans-serif;
-    font-weight: 300;
 }
 
 /* why play tennis with us*/
@@ -115,7 +109,8 @@ header li{
     height: 200px;
     left: 70px;
     bottom: 90px;
-    color: white;  
+    color: white;
+    padding: 5px;  
 }
 
 #firstabsolut{
@@ -258,6 +253,30 @@ footer > ul a:hover {
 
   /* easy tennis program*/
 
+  #tennisball{
+    height: 400px;
+    width: 97%;
+    background: url(../images/pexels-iconcom-226587\ \(1\).jpg)no-repeat center center;
+    background-size: cover;
+    margin: 5px;
+    padding: 10px;
+  }
+
+  #covertextball{
+    
+    font-size: 120%;
+    font-family: lato, sans-serif;
+    width: 400px;
+    height: 160px;
+    padding: 20px;
+    margin: 20px;
+    bottom: 340px;
+    left: 300px;
+    position: absolute;
+    color: white;
+    
+  }
+
 #programheading{
     margin: 10px;
     border: dotted;
@@ -283,5 +302,6 @@ footer > ul a:hover {
     padding: 10px;
     font-family: lato, sans-serif;
   }
+
 
 
