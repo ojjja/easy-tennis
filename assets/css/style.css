@@ -280,5 +280,13 @@ footer > ul a:hover {
     padding: 10px;
     font-family: lato, sans-serif;
   }
+  .programleft{
+        margin: 20px;
+  }
+  .programcenter{
 
+  }
+  .programright{
+     margin-right: 20px;
+  }
 
