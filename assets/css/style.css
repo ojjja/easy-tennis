@@ -296,10 +296,10 @@ footer > ul a:hover {
 
 #programheading{
     margin: 10px;
-    border: dotted;
     width: 97%;
     margin: 5px;
     padding: 10px;
+    background-color: lightblue;
 }
 
 .flexcontainerfirst {
