@@ -296,7 +296,11 @@ footer > ul a:hover {
     left: 150px;
     position: absolute;
     background-color: lightblue;
-    text-decoration: underline;
+    font-size: 200%;
+  }
+
+  .convertext{
+    margin: 15px;
   }
 
 #programheading{
