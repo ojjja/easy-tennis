@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
-
+/* clear margin*/
 *{
     margin: 0;
 }
 
+/* implement font */
 body{
     font-family:lato,sans-serif;
     font-weight: 300;
 }
 
 /* style logo and menu*/
-
 header{
     background-color: darkblue;
     margin: 5px;
@@ -81,8 +81,7 @@ header li{
     padding: 10px;
 }
 
-
-
+/* why play tennis with us*/
 #covertext{
     background-color: lightblue;
     width: 600px;
@@ -94,7 +93,7 @@ header li{
 }
 
 #playheading{
-    margin: 2px;
+    margin-left: 2px;
     padding: 2px;
 }
 
@@ -111,7 +110,7 @@ header li{
    font-weight: bold;
 }
 
-/* why play tennis with us*/
+
 
 /* #relative{
     position: relative;
@@ -194,6 +193,10 @@ header li{
     color: white;
     float: right;
     text-align: center;
+}
+
+#here{
+    color: white;
 }
 
 .timeheading{
