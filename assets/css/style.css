@@ -85,21 +85,35 @@ header li{
 
 #covertext{
     background-color: lightblue;
-    font-size: 150%;
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    width: 400px;
-    height: 150px;
-    padding: 20px;
-    margin: 20px;
-    bottom: 360px;
+    width: 600px;
+    height: 280px;
+    bottom: 400px;
     left: 150px;
     position: absolute;
+    font-family: lato, sans-serif;
+}
+
+#playheading{
+    margin: 2px;
+    padding: 2px;
+}
+
+.heading{
+    margin: 2px;
+    padding: 2px;
+    text-decoration: underline;
+    
+}
+
+.paragraf{ 
+   padding: 1px;
+   margin-left: 25px;
+   font-weight: bold;
 }
 
 /* why play tennis with us*/
 
-#relative{
+/* #relative{
     position: relative;
 }
 
@@ -152,7 +166,7 @@ header li{
     color: white;
     font-size: 110%;
 }
-
+*/
 
 /* weekly scheduele*/
 #schedule{
