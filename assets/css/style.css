@@ -275,7 +275,7 @@ footer > ul a:hover {
   /* easy tennis program*/
 
   #tennisball{
-    height: 400px;
+    height: 600px;
     width: 97%;
     background: url(../images/pexels-iconcom-226587\ \(1\).jpg)no-repeat center center;
     background-size: cover;
@@ -284,18 +284,14 @@ footer > ul a:hover {
   }
 
   #covertextball{
-    
-    font-size: 120%;
     font-family: lato, sans-serif;
-    width: 400px;
-    height: 160px;
-    padding: 20px;
-    margin: 20px;
-    bottom: 340px;
-    left: 300px;
+    width: 600px;
+    height: 280px;
+    bottom: 400px;
+    left: 150px;
     position: absolute;
-    color: white;
-    
+    background-color: lightblue;
+    text-decoration: underline;
   }
 
 #programheading{
