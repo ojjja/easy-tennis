@@ -110,63 +110,6 @@ header li{
    font-weight: bold;
 }
 
-
-
-/* #relative{
-    position: relative;
-}
-
-#headabsolute{
-    position: absolute;
-    width: 97%;
-    height: 200px;
-    left: 70px;
-    bottom: 300px;
-    color: white;
-    padding: 5px;  
-}
-
-#firstabsolut{
-    position: absolute;
-    width: 97%;
-    height: 200px;
-    left: 70px;
-    bottom: 270px;
-    color: white;
-    font-size: 110%;
-}
-
-#secondabsolut{
-    position: absolute;
-    width: 97%;
-    height: 200px;
-    left: 70px;
-    bottom: 200px;
-    color: white;
-    font-size: 110%;
-}
-
-#thirdabsolut{
-    position: absolute;
-    width: 97%;
-    height: 200px;
-    left: 70px;
-    bottom: 150px;
-    color: white;
-    font-size: 110%;
-}
-
-#fourthabsolut{
-    position: absolute;
-    width: 97%;
-    height: 200px;
-    left: 70px;
-    bottom: 100px;
-    color: white;
-    font-size: 110%;
-}
-*/
-
 /* weekly scheduele*/
 #schedule{
     background-color: lightblue;
@@ -322,7 +265,9 @@ footer > ul a:hover {
     font-size: 110%;
   }
 
- 
+  .underline{
+    text-decoration: underline;
+  }
 
 
 
