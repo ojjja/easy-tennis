@@ -269,5 +269,30 @@ footer > ul a:hover {
     text-decoration: underline;
   }
 
+/* Sign up */
+
+#mainheading{
+    margin: 10px;
+    width: 97%;
+    margin: 1px;
+    padding: 10px;
+    background-color: lightblue;
+    border: solid 1px;
+}
 
 
+.fieldset{
+    width: 97%;
+    background-color: lightblue;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.fieldsetheading{
+    text-decoration: underline;
+}
+
+#program{
+    padding: 2px;
+    margin: 2px;
+}

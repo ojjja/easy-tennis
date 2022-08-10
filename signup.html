@@ -42,11 +42,13 @@
     </header>
     <!-- this is tha main content of this document splitet into sevrel sections-->
     <main>
+        <div id="mainheading">
         <h2>Sign Up Today</h2>
+        </div>
 
         <form action="https://formdump.codeinstitute.net" method="post" target="_blank">
-            <fieldset>
-                <legend>Personal data</legend>
+            <fieldset class="fieldset">
+                <legend class="fieldsetheading">Personal data</legend>
 
                 <label for="first-name">First Name</label>
                 <input id="first-name" type="text" name="first-name" placeholder="Your first name" required>
@@ -74,8 +76,8 @@
                 </select>
             </fieldset>
 
-            <fieldset>
-                <legend>Address details</legend>
+            <fieldset class="fieldset">
+                <legend class="fieldsetheading">Address details</legend>
 
                 <label for="address">Address</label>
                 <input id="address" type="text" name="address" placeholder="Your address" required>
@@ -87,9 +89,9 @@
                 <input id="city" type="text" name="city" placeholder="Your city" required>
             </fieldset>
 
-            <fieldset>
+            <fieldset class="fieldset">
 
-                <legend>Program details</legend>
+                <legend class="fieldsetheading">Program details</legend>
                 <div>
                     <label for="program">Program</label>
                     <select name="program" id="program" required>
@@ -133,14 +135,14 @@
                 </div>
 
             </fieldset>
-            <fieldset>
-                <legend>Questions</legend>
+            <fieldset class="fieldset">
+                <legend class="fieldsetheading">Questions</legend>
                 <label for="question">If you have any questions or feedbak to us?</label>
                 <br>
                 <textarea name="question" id="question" cols="90" rows="5"></textarea>
             </fieldset>
-            <fieldset>
-                <legend>Submit</legend>
+            <fieldset class="fieldset">
+                <legend class="fieldsetheading">Submit</legend>
                 <button type="submit">Submit</button>
                 <p>We will contact you within 5 days</p>
             </fieldset>
