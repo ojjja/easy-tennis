@@ -300,6 +300,13 @@ footer > ul a:hover {
 /*media queries*/
 
 /*for larger to media screens */
+@media screen and (max-width: 1400px){
+    .flexcontainerfirst{
+        flex-wrap: wrap;
+    }
+
+}
+
 @media screen and (max-width: 1300px){
      #table{
         width: 97%;
@@ -307,18 +314,13 @@ footer > ul a:hover {
 }
 
 @media screen and (max-width: 820px){
-    #schedule{
-     text-align: left;
+    #covertext{
+        width: auto;
+        left: auto;
+        margin: 3pxs;
     }
 
     #textcover[
         width: 97%;
-        margin: 0;
-        margin: 0;
-
     ]
-
-    #covertext{
-        left: 10px;
-}
 }
