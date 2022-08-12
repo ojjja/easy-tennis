@@ -1,3 +1,119 @@
+EASY TENNIS
+
+Introduction of the project:
+Tennis is a difficult sport but it does not have to be that.
+This is a local tennis clubb website for the local community 
+that offers an easy method and funny way to play tennis. 
+The website is mainly for all people living in the community: Seniors, adults, youth and children.
+The Website consists of three pages: 
+Page 1: A page consist of "why the should play tennis whit us" white a weekly time schedule the club offer.
+Page 2: A page with an explanation of all tennis programs that the club offers that is easy to choose from.
+Page 3: A page with a sign up form to submit their interest.
+All pages have contact info, social media, and a navigation bar to all pages so it is easy to follow or contac the club.
+The reason to dark and light blue color, beacuse it is the color of Dublin.
+
+Screen shot for different divices using responsive design:
+
+http://responsivedesign.is/
+
+
+Features: Here you will find the features and the related screenshot of the website.
+
+Navigation: To make it easy to navigate through the site there is a navigation bar on the top of every page. Here you can find the club logo which include a link to start page on the left and on the right the menue where you can "click" yourself to the different pages. 
+
+Footer: To make it easy to contact or follow the club on social media there is a footer created on the bootom of every page. Here you can find contact info to the club with a phone numer and an adress if they want to visit. They can also find the social media of the club by follow the link.
+
+
+
+Page Home: This is the start page for the website. The pages consist of two main sections:
+
+Image with text: There is ia an image with a text "why the sould play tennis with the club". The image has an tennis ball to focus on the method the clubb use. There is three main reasons that is highlighted and an invite to action.
+The three main reason is:
+A method of be able to play directly and that the secret is the ball
+A healty reason
+A social reason
+And then invite to learn more and sign up.
+
+Weekly scheduele: Here you can see all the club offer in a weekly table including day, time and program. There is also a text that invite you to learn moe about the programs of the club to make it easy to choose.
+
+
+
+Page Play: This is the page that you can visit through the menu in the navigation bar. It consist of two main sections:
+
+Image with text: The image has an tennis ball to focus on the method the clubb use with a offer to test, join the club and an action do sign up.
+
+Easy Tennis Programs: Here you can see what each program is about and what is included. Example what is included is trainer, food snack or coffe. Other importent things to now is time, day, and for who. There is also a short slogan for every program to make it easy to choose.
+
+Page Sign up: Here they can register an intresst to play easy tennis, the program they are intressted in, how much they want to play and if the have any questions to the club.  The club need these details to be able to contact them, to see if they have capacity for the requested programs, to check if they are from the local community and billing information.
+
+The form collects 4 types of information:
+Personal data:
+Address details:
+Program details:
+Questions:
+
+Manuall Testing:
+
+Browsers
+Responsivness in different devices
+Sign up form
+Links
+Menus
+
+Buggs when testing:
+Fixed buggs
+Unfixed buggs
+
+Validator testing:
+HTML
+passing or errors
+
+CSS
+passing or errors
+
+Accesibility
+Improvements Headings.....
+
+Deployment: Steps to deploy yhe project
+The site wae deployed to Git Hub pages
+
+The live link can be found here ....
+
+Credits:
+
+Contents
+Navigation was taken from ....Love Running
+Inspiration was taken from ..... Love Running and coffe house
+www.w3schools.com/css
+
+Media
+The image in the header was taken from ......Pexels
+
+Mentor
+The tennis ball was given by my Mentor Tim
+Links for Picture was given from my Mentor Tim
+Tim Found errors and solutions in Sign up form
+All the tips from my mentor meeting that I have tried to follow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome ojjja,

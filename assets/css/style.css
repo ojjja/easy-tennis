@@ -82,12 +82,12 @@ header li{
 }
 
 /* why play tennis with us*/
-#covertext{
+#covertextplay{
     background-color: lightblue;
     width: 600px;
     height: 280px;
-    bottom: 400px;
-    left: 150px;
+    bottom: 340px;
+    left: 100px;
     position: absolute;
     font-family: lato, sans-serif;
 }
@@ -235,8 +235,8 @@ footer > ul a:hover {
     font-family: lato, sans-serif;
     width: 600px;
     height: 280px;
-    bottom: 400px;
-    left: 150px;
+    bottom: 340px;
+    left: 100px;
     position: absolute;
     background-color: lightblue;
     font-size: 200%;
