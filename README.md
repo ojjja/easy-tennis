@@ -84,7 +84,8 @@ Credits:
 Contents
 Navigation was taken from ....Love Running
 Inspiration was taken from ..... Love Running and coffe house
-www.w3schools.com/css
+media queri was taken from ......Love running
+Flex was taken from .........www.w3schools.com/css
 
 Media
 The image in the header was taken from ......Pexels
