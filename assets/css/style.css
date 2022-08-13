@@ -330,24 +330,18 @@ footer > ul a:hover {
         width: 97%;
         text-align: left;
    }
-}
+
+
 /*
-@media screen and (max-width: 820px){
+@media screen and (max-width: 840px){
 
-    header nav{
-        clear: left;
-        float: left;
+       #covertextplay{
+    width: 97%;
+    height: 600px;
+    bottom: 340px;
+    left: 100px;
+    position: absolute;
     }
-
-    #covertext{
-        width: auto;
-        left: auto;
-        margin: 3pxs;
-    }
-
-    #textcover{
-        width: 97%;
-}
 }
 */
 
