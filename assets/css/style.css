@@ -163,6 +163,8 @@ tr{
 
 table{
     margin: 10px;
+    word-break: break-word;
+    white-space: pre-line;
 }
 
 td{
