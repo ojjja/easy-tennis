@@ -324,7 +324,6 @@ footer > ul a:hover {
      header{
          height: 100px;
     }
-
      header nav{
         float: left;
         width: 97%;
@@ -332,18 +331,18 @@ footer > ul a:hover {
    }
 
 
-/*
+
 @media screen and (max-width: 840px){
 
        #covertextplay{
-    width: 97%;
-    height: 600px;
-    bottom: 340px;
-    left: 100px;
+    width: 300px;
+    height: 450px;
+    bottom: 130px;
+    left: 10px;
     position: absolute;
+    background-color: lightblue;
     }
 }
-*/
 
 @media screen and (max-width: 620px){
 
@@ -362,7 +361,6 @@ footer > ul a:hover {
 }
 }
 
-
 @media screen and (max-width: 500px){
     #textcover{
         width: 97%;
@@ -372,9 +370,23 @@ footer > ul a:hover {
         padding: 0;
         margin: 0;
     }
+
     table{
    font-size: 80%;
    width: 97%;
    margin: 0;
+   }
 }
+
+@media screen and (max-width: 400px){
+
+    #covertextplay{
+        width: 97%;
+        height: 450px;
+        bottom: 130px;
+        left: 10px;
+        position: absolute;
+        color: white;
+        background-color: transparent;
+        }
 }
