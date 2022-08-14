@@ -74,7 +74,7 @@ header li{
 #tennisimage{
     height: 600px;
     width: 97%;
-    background: url(../images/pexels-todd-trapani-2339377\ \(1\).jpg)no-repeat center center;
+    background: url(../images/tennisball_home.jpg)no-repeat center center;
     background-size: cover;
     position: relative; 
     margin: 5px;
@@ -226,7 +226,7 @@ footer > ul a:hover {
   #tennisball{
     height: 600px;
     width: 97%;
-    background: url(../images/pexels-iconcom-226587\ \(1\).jpg)no-repeat center center;
+    background: url(../images/tennisball_play.jpg)no-repeat center center;
     background-size: cover;
     margin: 5px;
     padding: 10px;
