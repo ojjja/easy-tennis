@@ -344,7 +344,7 @@ footer > ul a:hover {
     }
 }
 
-@media screen and (max-width: 620px){
+@media screen and (max-width: 622px){
 
     header h1{
         width: 97%;
@@ -389,4 +389,19 @@ footer > ul a:hover {
         color: white;
         background-color: transparent;
         }
+ }
+        @media screen and (max-width: 370px){
+
+            table{
+                font-size: 60%;
+                }
+
+                header h1{
+                    font-size: 200%;
+                }
+
+                header nav{
+                 font-size: 80%;
+               }
 }
+
