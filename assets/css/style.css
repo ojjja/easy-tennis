@@ -275,7 +275,7 @@ footer > ul a:hover {
 #mainheading{
     margin: 10px;
     width: 97%;
-    margin: 1px;
+    margin: 4px;
     padding: 10px;
     background-color: lightblue;
     border: solid 1px;
@@ -295,7 +295,7 @@ footer > ul a:hover {
 
 #program{
     padding: 2px;
-    margin: 2px;
+    margin: 5px;
 }
 
 /*media queries*/
@@ -405,18 +405,18 @@ footer > ul a:hover {
    }
 }
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 450px){
 
 #covertextplay{
     width: 300px;
     height: 450px;
-    bottom: 1px;
+    bottom: 250px;
     left: 10px;
     position: absolute;
     background-color: lightblue;
     }
 }
-/*
+
 @media screen and (max-width: 400px){
 
     #covertextplay{
@@ -428,7 +428,7 @@ footer > ul a:hover {
         color: white;
         background-color: transparent;
         }
- }*/
+ }
 
         @media screen and (max-width: 370px){
 
