@@ -11,6 +11,12 @@ body{
     font-weight: 300;
 }
 
+/* prevent horisontal scrolling */ 
+
+/* body {
+    overflow-x: hidden !important;
+} */
+
 /* style logo and menu*/
 header{
     background-color: darkblue;
@@ -70,15 +76,16 @@ header li{
     font-weight: 300;  
 }
 
-/* tennisimage*/
+/* tennisimage home page*/
 #tennisimage{
     height: 600px;
     width: 97%;
+    /* margin: 0 auto; */
     background: url(../images/tennisball_home.jpg)no-repeat center center;
     background-size: cover;
-    position: relative; 
+    /* position: relative; 
     margin: 5px;
-    padding: 10px;
+    padding: 10px; */
 }
 
 /* why play tennis with us*/
@@ -86,10 +93,18 @@ header li{
     background-color: lightblue;
     width: 600px;
     height: 280px;
-    bottom: 340px;
+    /* bottom: 340px;
     left: 100px;
-    position: absolute;
-    font-family: lato, sans-serif;
+    position: absolute; */
+
+    /* font-family: lato, sans-serif; */
+
+    position: relative;
+    /* bottom: 400px; */
+    left: 50px;
+    top: -500px;
+    margin-bottom: -280px;
+
 }
 
 #playheading{
@@ -125,7 +140,7 @@ header li{
     width: 97%;
     margin: 5px;
     padding: 10px;
-}
+  }
 
 #textcover{
     background-color: darkblue;
