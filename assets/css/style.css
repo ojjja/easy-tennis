@@ -22,7 +22,7 @@ body{
 header{
     background-color: darkblue;
     padding: 10px;
-    height: 50px;
+    height: 80px;
     /* font-family: lato, sans-serif; */
     /* width: 97%; */
     /* margin: 5px; */
@@ -44,7 +44,7 @@ a:hover {
 header h1{
     /* font-family: lato, sans-serif; */
     width: 49%;
-    line-height: 50px;
+    line-height: 80px;
     float: left;
     /* text-align: left; */
     /* margin: auto; */
@@ -54,7 +54,7 @@ header h1{
 
 header nav{
     font-family: lato, sans-serif;
-    line-height: 50px;
+    line-height: 80px;
     float: right;
     width: 49%;
     text-align: right;
@@ -197,21 +197,25 @@ footer{
     background-color: darkblue;
     /* margin: 5px;
     padding: 10px; */
-    font-family: lato, sans-serif;
+    /* font-family: lato, sans-serif; */
     /* width: 97%; */
-    height: 50px;
+    height: 80px;
+    padding: 10px;
 }
 
 footer > div {
     color: white;
     float: left;
-    font-family: lato, sans-serif;
-    margin-left: 20px;
+    /* font-family: lato, sans-serif; */
+    /* margin-left: 20px; */
+    padding:10px;
+    text-transform: uppercase;
+    
 }
 
 footer  ul{
-    font-family: lato, sans-serif;
-    line-height: 50px;
+    /* font-family: lato, sans-serif; */
+    line-height: 80px;
     float: right;
     width: 49%;
     text-align: right;
@@ -221,22 +225,22 @@ footer li{
     list-style-type: none;
     text-align: center;
     display: inline-block;
-    width: auto;
-    margin: auto;
-    font-size: 110%;
+    /* width: auto;
+    margin: auto; */
+    font-size: 150%;
     margin-right: 20px;
 }
 
 footer a{
     color: white; 
-    text-align: right;
-    text-transform: uppercase;
+    /* text-align: right; */
+    /* text-transform: uppercase;
     text-decoration: none;
-    list-style-type: none;
+    list-style-type: none; */
     }
 
 footer > ul a:hover {
-    font-size: 150%;
+    font-size: 200%;
   }
 
   /* easy tennis program*/
