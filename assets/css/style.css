@@ -90,7 +90,7 @@ header li{
     padding: 10px; */
 }
 
-/* why play tennis with us*/
+/* why play tennis with us home page*/
 #covertextplay{
     background-color: lightblue;
     width: 600px;
@@ -127,7 +127,7 @@ header li{
    font-weight: bold;
 }
 
-/* weekly scheduele*/
+/* weekly scheduele home page*/
 
 #scheduleheading{
     /* margin: 10px; */
@@ -210,7 +210,6 @@ footer > div {
     /* margin-left: 20px; */
     padding:10px;
     text-transform: uppercase;
-    
 }
 
 footer  ul{
@@ -292,7 +291,7 @@ footer > ul a:hover {
     text-decoration: underline;
   }
 
-/* Sign up */
+/* Sign up page */
 
 #mainheading{
     margin: 10px;
@@ -346,7 +345,7 @@ footer > ul a:hover {
 
 }
 
-@media screen and (max-width: 1100px){
+/* @media screen and (max-width: 1100px){
 
      header{
          height: 100px;
@@ -356,7 +355,7 @@ footer > ul a:hover {
         width: 97%;
         text-align: left;
    }
-}
+} */
 
 
 @media screen and (max-width: 840px){
@@ -384,21 +383,38 @@ footer > ul a:hover {
     }
 }
 
-@media screen and (max-width: 622px){
+@media screen and (max-width: 680px){
 
     header h1{
         width: 97%;
+        line-height: 20px;
+    }
+
+    header nav{
+       float: left;
+       width: 97%;
+       text-align: left;
+       padding: 0px;    
     }
 
     footer{
-         height: 100px;
+        height: 100px;
     }
 
     footer  ul{
     float: left;
     width: 97%;
     text-align: left;
-}
+    line-height: 20px;
+    }
+
+    footer > ul a:hover {
+        font-size: 100%;
+      }
+
+      footer > div {
+       font-size: 80%;
+    }
 }
 
 @media screen and (max-width: 500px){
