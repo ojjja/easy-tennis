@@ -347,6 +347,7 @@ footer > ul a:hover {
     #covertextplay{
         width: 400px;
         height: auto;
+        margin-bottom: -360px;
     }
 }
 
@@ -381,6 +382,7 @@ footer > ul a:hover {
     #covertextplay{
         width: 250px;
         height: auto;
+        margin-bottom: -435px;
     }
 
 }
@@ -428,6 +430,7 @@ footer > ul a:hover {
         background-color: transparent;
         color:white;
         top: -600px;
+        margin-bottom: -540px;
     }
 
     /* .paragraf{
