@@ -42,14 +42,14 @@ a:hover {
   }
 
 header h1{
-    font-family: lato, sans-serif;
+    /* font-family: lato, sans-serif; */
     width: 49%;
     line-height: 50px;
     float: left;
-    text-align: left;
-    margin: auto;
+    /* text-align: left; */
+    /* margin: auto; */
     font-size: 300%;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 header nav{
@@ -64,10 +64,11 @@ header li{
     list-style-type: none;
     text-align: center;
     display: inline-block;
-    width: auto;
-    margin: auto;
+    /* width: auto;
+    margin: auto; */
     font-size: 110%;
     margin-right: 20px;
+    font-weight: 900;
 }
 
 
@@ -127,21 +128,49 @@ header li{
 }
 
 /* weekly scheduele*/
-#schedule{
-    background-color: lightblue;
-    /* margin: 5px;
-    padding: 10px; */
-    /* font-family: lato, sans-serif; */
-    /* width: 97%; */
-}
 
 #scheduleheading{
     /* margin: 10px; */
     background-color: lightblue;
     /* width: 97%;
-    margin: 5px;
-    padding: 10px; */
+    margin: 5px; */
+    padding: 10px;
+    text-decoration: underline;
   }
+  
+#schedule{
+    background-color: lightblue;
+    /* margin: 5px; */
+    padding: 10px;
+    /* font-family: lato, sans-serif; */
+    /* width: 97%; */
+}
+
+.timeheading{
+    /* font-weight: bold; */
+}
+
+th{
+    letter-spacing: 2px;
+    font-size: 120%;
+    text-decoration: underline;
+    padding: 3px;
+}
+
+tr{
+   text-align: right;
+}
+
+/* table{
+    margin: 10px; 
+} */
+
+td{
+    margin: 2px;
+    padding: 2px;
+    font-weight: bold;
+    font-size: 110%;
+}
 
 #textcover{
     background-color: darkblue;
@@ -160,32 +189,6 @@ header li{
 
 #here{
     color: white;
-}
-
-.timeheading{
-    font-weight: bold;
-}
-
-th{
-    letter-spacing: 2px;
-    font-size: 120%;
-    text-decoration: underline;
-    padding: 3px;
-}
-
-tr{
-   text-align: right;
-}
-
-table{
-    margin: 10px; 
-}
-
-td{
-    margin: 2px;
-    padding: 2px;
-    font-weight: bold;
-    font-size: 110%;
 }
 
 /* style footer*/
