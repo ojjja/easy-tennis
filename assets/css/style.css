@@ -198,7 +198,7 @@ footer > ul a:hover {
     position: relative;
     left: 50px;
     top: -500px;
-    margin-bottom: -280px;
+    margin-bottom: -300px;
     font-size: 200%;
   }
 
@@ -214,16 +214,22 @@ footer > ul a:hover {
 
 }
 
-.flexcontainerfirst {
+#flexcontainerfirst {
     display: flex;
     background-color: lightblue;
     padding: 10px;
     font-weight: bold;
     font-size: 120%;
+    
   }
 
   .underline{
     text-decoration: underline;
+  }
+
+  .insideflex{
+    width: 16%;
+    padding: 10px;
   }
 
 /* Sign up page */
