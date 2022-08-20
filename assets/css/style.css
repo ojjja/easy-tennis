@@ -263,11 +263,18 @@ footer > ul a:hover {
 /*media queries*/
 
 /*for larger to media screens */
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1200px){
+
+    .insideflex{
+        width: auto;
+        padding: 0px;
+    }  
+
     .flexcontainerfirst{
         flex-wrap: wrap;
     }
-}
+
+
 
 @media screen and (max-width: 1300px){
 
