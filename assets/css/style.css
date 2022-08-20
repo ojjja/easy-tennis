@@ -12,27 +12,16 @@ body{
     font-weight: 300;
 }
 
-/* prevent horisontal scrolling */ 
-
-/* body {
-    overflow-x: hidden !important;
-} */
-
 /* style logo and menu*/
 header{
     background-color: darkblue;
     padding: 10px;
     height: 80px;
-    /* font-family: lato, sans-serif; */
-    /* width: 97%; */
-    /* margin: 5px; */
 }
 
 header a{
     color: white; 
-    /* text-align: right; */
     text-transform: uppercase;
-    /* text-decoration: none; */
     }
 
 a:hover {
@@ -42,14 +31,10 @@ a:hover {
   }
 
 header h1{
-    /* font-family: lato, sans-serif; */
     width: 49%;
     line-height: 80px;
     float: left;
-    /* text-align: left; */
-    /* margin: auto; */
     font-size: 300%;
-    /* margin-left: 20px; */
 }
 
 header nav{
@@ -64,30 +49,17 @@ header li{
     list-style-type: none;
     text-align: center;
     display: inline-block;
-    /* width: auto;
-    margin: auto; */
     font-size: 110%;
     margin-right: 20px;
     font-weight: 900;
 }
 
-
-/* main*/
-/* #font{
-    font-family:lato,sans-serif;
-    font-weight: 300;  
-} */
-
 /* tennisimage home page*/
 #tennisimage{
     height: 600px;
-    /* width: 97%; */
     margin: 0 auto;
     background: url(../images/tennisball_home.jpg)no-repeat center center;
     background-size: cover;
-    /* position: relative; 
-    margin: 5px;
-    padding: 10px; */
 }
 
 /* why play tennis with us home page*/
@@ -95,18 +67,10 @@ header li{
     background-color: lightblue;
     width: 600px;
     height: 280px;
-    /* bottom: 340px;
-    left: 100px;
-    position: absolute; */
-
-    /* font-family: lato, sans-serif; */
-
     position: relative;
-    /* bottom: 400px; */
     left: 50px;
     top: -500px;
     margin-bottom: -280px;
-
 }
 
 #playheading{
@@ -117,8 +81,7 @@ header li{
 .heading{
     margin: 2px;
     padding: 2px;
-    text-decoration: underline;
-    
+    text-decoration: underline;   
 }
 
 .paragraf{ 
@@ -130,25 +93,19 @@ header li{
 /* weekly scheduele home page*/
 
 #scheduleheading{
-    /* margin: 10px; */
-    background-color: lightblue;
-    /* width: 97%;
-    margin: 5px; */
+     background-color: lightblue;/
     padding: 10px;
     text-decoration: underline;
   }
   
 #schedule{
     background-color: lightblue;
-    /* margin: 5px; */
     padding: 10px;
-    /* font-family: lato, sans-serif; */
-    /* width: 97%; */
 }
 
-.timeheading{
-    /* font-weight: bold; */
-}
+/* .timeheading{
+    font-weight: bold;
+} */
 
 th{
     letter-spacing: 2px;
@@ -160,10 +117,6 @@ th{
 tr{
    text-align: right;
 }
-
-/* table{
-    margin: 10px; 
-} */
 
 td{
     margin: 2px;
@@ -195,10 +148,6 @@ td{
 
 footer{
     background-color: darkblue;
-    /* margin: 5px;
-    padding: 10px; */
-    /* font-family: lato, sans-serif; */
-    /* width: 97%; */
     height: 80px;
     padding: 10px;
 }
@@ -206,8 +155,6 @@ footer{
 footer > div {
     color: white;
     float: left;
-    /* font-family: lato, sans-serif; */
-    /* margin-left: 20px; */
     padding:10px;
     text-transform: uppercase;
 }
@@ -224,18 +171,12 @@ footer li{
     list-style-type: none;
     text-align: center;
     display: inline-block;
-    /* width: auto;
-    margin: auto; */
     font-size: 150%;
     margin-right: 20px;
 }
 
 footer a{
     color: white; 
-    /* text-align: right; */
-    /* text-transform: uppercase;
-    text-decoration: none;
-    list-style-type: none; */
     }
 
 footer > ul a:hover {
