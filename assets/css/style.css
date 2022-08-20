@@ -93,7 +93,7 @@ header li{
 /* weekly scheduele home page*/
 
 #scheduleheading{
-     background-color: lightblue;/
+    background-color: lightblue;/
     padding: 10px;
     text-decoration: underline;
   }
@@ -160,7 +160,6 @@ footer > div {
 }
 
 footer  ul{
-    /* font-family: lato, sans-serif; */
     line-height: 80px;
     float: right;
     width: 49%;
@@ -184,24 +183,22 @@ footer > ul a:hover {
   }
 
   /* easy tennis program*/
-
+  /* tennis image with text */
   #tennisball{
     height: 600px;
-    width: 97%;
+    margin: 0 auto;
     background: url(../images/tennisball_play.jpg)no-repeat center center;
     background-size: cover;
-    margin: 5px;
-    padding: 10px;
   }
 
   #covertextball{
-    font-family: lato, sans-serif;
+    background-color: lightblue;
     width: 600px;
     height: 280px;
-    bottom: 340px;
-    left: 100px;
-    position: absolute;
-    background-color: lightblue;
+    position: relative;
+    left: 50px;
+    top: -500px;
+    margin-bottom: -280px;
     font-size: 200%;
   }
 
@@ -209,23 +206,20 @@ footer > ul a:hover {
     margin: 15px;
   }
 
+/*  Easy tennis program with heading*/
 #programheading{
-    margin: 10px;
-    width: 97%;
-    margin: 5px;
+    background-color: lightblue;/
     padding: 10px;
-    background-color: lightblue;
+    text-decoration: underline;
+
 }
 
 .flexcontainerfirst {
     display: flex;
     background-color: lightblue;
-    width: 97%;
-    margin: 5px;
     padding: 10px;
-    font-family: lato, sans-serif;
     font-weight: bold;
-    font-size: 110%;
+    font-size: 120%;
   }
 
   .underline{
