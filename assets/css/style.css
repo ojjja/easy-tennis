@@ -96,11 +96,13 @@ header li{
     background-color: lightblue;
     padding: 10px;
     text-decoration: underline;
+    height: 30px;
   }
   
 #schedule{
     background-color: lightblue;
     padding: 10px;
+    height: 200px;
 }
 
 /* .timeheading{
@@ -183,7 +185,7 @@ footer > ul a:hover {
   }
 
   /* easy tennis program*/
-  /* tennis image with text */
+  /* tennis image with text over image */
   #tennisball{
     height: 600px;
     margin: 0 auto;
@@ -199,7 +201,6 @@ footer > ul a:hover {
     left: 50px;
     top: -500px;
     margin-bottom: -300px;
-    /* font-size: 200%; */
   }
 
   #joinheading{
@@ -228,6 +229,7 @@ footer > ul a:hover {
     background-color: lightblue;
     padding: 10px;
     text-decoration: underline;
+    height: 30px;
 }
 
 #flexcontainerfirst {
@@ -235,7 +237,8 @@ footer > ul a:hover {
     background-color: lightblue;
     padding: 10px;
     font-weight: bold;
-    font-size: 120%;
+    /* font-size: 120%; */
+    height: 200px;
   }
 
   .underline{
@@ -288,6 +291,27 @@ footer > ul a:hover {
         width: 97%;
     }
 
+    #scheduleheading{
+        height: auto;
+    }
+
+    #schedule{
+        height: auto; 
+    }
+
+    #programheading{
+        height: auto;
+    }
+
+    #flexcontainerfirst{
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .insideflex{
+        width: auto;
+    } 
+
     /* #textcover{
         float: left;
     }  */
@@ -304,13 +328,9 @@ footer > ul a:hover {
         margin-bottom: -360px;
     }
 
-    #flexcontainerfirst{
-        flex-wrap: wrap;
-    }
-
-    .insideflex{
-        width: auto;
-    }  
+    
+    
+  
 }
 
 @media screen and (max-width: 840px){
@@ -384,23 +404,25 @@ footer > ul a:hover {
 @media screen and (max-width: 500px){
 
     #covertextplay{
-        width: 200px;
+        width: 250px;
         height: auto;
-        left: 20px;
+        left: 10px;
         background-color: transparent;
         color:white;
         top: -600px;
         margin-bottom: -540px;
     }
 
+    /* #playheading{
+        width: fit-content;
+    } */
+
     /* .paragraf{
        display: flex;
     } */
-/* 
+
     #textcover{
         width: 97%;
-        float: left;
-        text-align: left;
         height: auto;
         padding: 0;
         margin: 0;
