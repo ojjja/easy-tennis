@@ -202,7 +202,22 @@ footer > ul a:hover {
     /* font-size: 200%; */
   }
 
+  #joinheading{
+    margin-left: 2px;
+    padding: 2px;
+}
 
+.fontheading{
+    margin: 2px;
+    padding: 2px;
+    text-decoration: underline;   
+}
+
+.joinparagraf{ 
+   padding: 1px;
+   margin-left: 25px;
+   font-weight: bold;
+}
 
   /* .convertext{
     margin: 15px;
