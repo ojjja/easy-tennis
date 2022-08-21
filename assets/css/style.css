@@ -225,10 +225,10 @@ footer > ul a:hover {
     text-decoration: underline;
   }
 
-  /* .insideflex{
+  .insideflex{
     width: 16%;
     padding: 10px;
-  } */
+  }
 
 /* Sign up page */
 #mainheading{
@@ -257,19 +257,6 @@ footer > ul a:hover {
 }
 
 /*media queries*/
-
-@media screen and (max-width: 1200px){
-
-    /* .insideflex{
-        width: auto;
-        padding: 0px;
-    }   */
-
-    .flexcontainerfirst{
-        flex-wrap: wrap;
-    }
-}
-
 @media screen and (max-width: 1300px){
 
      #table{
@@ -291,6 +278,15 @@ footer > ul a:hover {
         height: auto;
         margin-bottom: -360px;
     }
+
+    #flexcontainerfirst{
+        flex-wrap: wrap;
+    }
+
+    .insideflex{
+        width: auto;
+    }  
+
 }
 
 @media screen and (max-width: 840px){
