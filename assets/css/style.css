@@ -93,7 +93,7 @@ header li{
 /* weekly scheduele home page*/
 
 #scheduleheading{
-    background-color: lightblue;/
+    background-color: lightblue;
     padding: 10px;
     text-decoration: underline;
   }
@@ -208,10 +208,9 @@ footer > ul a:hover {
 
 /*  Easy tennis program with heading*/
 #programheading{
-    background-color: lightblue;/
+    background-color: lightblue;
     padding: 10px;
     text-decoration: underline;
-
 }
 
 #flexcontainerfirst {
@@ -220,20 +219,18 @@ footer > ul a:hover {
     padding: 10px;
     font-weight: bold;
     font-size: 120%;
-    
   }
 
   .underline{
     text-decoration: underline;
   }
 
-  .insideflex{
+  /* .insideflex{
     width: 16%;
     padding: 10px;
-  }
+  } */
 
 /* Sign up page */
-
 #mainheading{
     margin: 10px;
     width: 97%;
@@ -242,7 +239,6 @@ footer > ul a:hover {
     background-color: lightblue;
     border: solid 1px;
 }
-
 
 .fieldset{
     width: 97%;
@@ -262,19 +258,17 @@ footer > ul a:hover {
 
 /*media queries*/
 
-/*for larger to media screens */
 @media screen and (max-width: 1200px){
 
-    .insideflex{
+    /* .insideflex{
         width: auto;
         padding: 0px;
-    }  
+    }   */
 
     .flexcontainerfirst{
         flex-wrap: wrap;
     }
-
-
+}
 
 @media screen and (max-width: 1300px){
 
@@ -309,8 +303,6 @@ footer > ul a:hover {
     position: absolute;
     background-color: lightblue;
     } */
-
-
 
     #covertextball{
         width: 300px;
@@ -449,4 +441,3 @@ footer > ul a:hover {
                  font-size: 80%;
                }
                }
-
