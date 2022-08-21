@@ -199,12 +199,14 @@ footer > ul a:hover {
     left: 50px;
     top: -500px;
     margin-bottom: -300px;
-    font-size: 200%;
+    /* font-size: 200%; */
   }
 
-  .convertext{
+
+
+  /* .convertext{
     margin: 15px;
-  }
+  } */
 
 /*  Easy tennis program with heading*/
 #programheading{
@@ -231,30 +233,38 @@ footer > ul a:hover {
   }
 
 /* Sign up page */
+#main{
+    background-color: lightblue; 
+}
+
 #mainheading{
-    margin: 10px;
+    /* margin: 10px;
     width: 97%;
-    margin: 4px;
+    margin: 4px; */
     padding: 10px;
     background-color: lightblue;
-    border: solid 1px;
+    /* border: solid 1px; */
+    text-decoration: underline;
+    text-align: center;
 }
 
 .fieldset{
-    width: 97%;
-    background-color: lightblue;
-    margin: 1px;
+    width: 90%;
+    /* background-color: lightblue; */
+    /* margin: 1px; */
     font-weight: bold;
+    padding: 10px;
+    margin: 0 auto;
 }
 
 .fieldsetheading{
     text-decoration: underline;
 }
 
-#program{
+/*  #program{
     padding: 2px;
-    margin: 5px;
-}
+    margin: 5px; 
+} */
 
 /*media queries*/
 @media screen and (max-width: 1300px){
@@ -263,13 +273,13 @@ footer > ul a:hover {
         width: 97%;
     }
 
-    #textcover{
+    /* #textcover{
         float: left;
-    } 
-    
+    }  */
+/*     
     #covertextball{
         float: left;
-    }
+    } */
 }
 
 @media screen and (max-width: 1200px){
@@ -298,7 +308,7 @@ footer > ul a:hover {
     position: absolute;
     background-color: lightblue;
     } */
-
+/* 
     #covertextball{
         width: 300px;
         height: 450px;
@@ -306,7 +316,7 @@ footer > ul a:hover {
         left: 10px;
         position: absolute;
         background-color: lightblue;
-        }
+        } */
 
     #question{
         width: 97%;
@@ -371,7 +381,7 @@ footer > ul a:hover {
     /* .paragraf{
        display: flex;
     } */
-
+/* 
     #textcover{
         width: 97%;
         float: left;
@@ -388,7 +398,7 @@ footer > ul a:hover {
         height: auto;
         padding: 0;
         margin: 0;
-    }
+    } */
 
     table{
    font-size: 80%;
