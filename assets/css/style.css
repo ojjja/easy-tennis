@@ -101,8 +101,9 @@ header li{
   
 #schedule{
     background-color: lightblue;
-    padding: 10px;
     height: 200px;
+    padding: 1px;
+    font-weight: bold;
 }
 
 /* .timeheading{
@@ -256,20 +257,14 @@ footer > ul a:hover {
 }
 
 #mainheading{
-    /* margin: 10px;
-    width: 97%;
-    margin: 4px; */
     padding: 10px;
     background-color: lightblue;
-    /* border: solid 1px; */
     text-decoration: underline;
     text-align: center;
 }
 
 .fieldset{
     width: 90%;
-    /* background-color: lightblue; */
-    /* margin: 1px; */
     font-weight: bold;
     padding: 10px;
     margin: 0 auto;
@@ -278,11 +273,6 @@ footer > ul a:hover {
 .fieldsetheading{
     text-decoration: underline;
 }
-
-/*  #program{
-    padding: 2px;
-    margin: 5px; 
-} */
 
 /*media queries*/
 @media screen and (max-width: 1300px){
