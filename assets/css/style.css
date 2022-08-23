@@ -56,14 +56,14 @@ header li{
 
 /* tennisimage home page*/
 #tennisimage{
-    /* width: 100%;*/
+    width: 100%;
     /* padding-top: 148,148%; */
-    height: 100px;
-    width: 100px;
+    height: 600px;
+   
     /* margin: 0 auto;
     background: url(../images/tennisball_home.jpg)no-repeat center center; */
     /* background-size: cover; */
-    /*background-color:white */
+    background-color:white
     background-repeat:no-repeat;
     /* background-size: contain; */
     /* background-size: 100%; */
