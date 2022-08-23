@@ -56,10 +56,17 @@ header li{
 
 /* tennisimage home page*/
 #tennisimage{
-    height: 600px;
-    margin: 0 auto;
-    background: url(../images/tennisball_home.jpg)no-repeat center center;
-    background-size: cover;
+    /* width: 100%;*/
+    /* padding-top: 148,148%; */
+    height: 100px;
+    width: 100px;
+    /* margin: 0 auto;
+    background: url(../images/tennisball_home.jpg)no-repeat center center; */
+    /* background-size: cover; */
+    /*background-color:white */
+    background-repeat:no-repeat;
+    /* background-size: contain; */
+    /* background-size: 100%; */
 }
 
 /* why play tennis with us home page*/
@@ -301,14 +308,6 @@ footer > ul a:hover {
     .insideflex{
         width: auto;
     } 
-
-    /* #textcover{
-        float: left;
-    }  */
-/*     
-    #covertextball{
-        float: left;
-    } */
 }
 
 @media screen and (max-width: 1200px){
@@ -318,30 +317,14 @@ footer > ul a:hover {
         margin-bottom: -360px;
     }
 
-    
-    
-  
+    #covertextball{
+        width: 400px;
+        height: auto;
+        margin-bottom: -360px;
+    }  
 }
 
 @media screen and (max-width: 840px){
-
-       /* #covertextplay{
-    width: 300px;
-    height: 450px;
-    bottom: 130px;
-    left: 10px;
-    position: absolute;
-    background-color: lightblue;
-    } */
-/* 
-    #covertextball{
-        width: 300px;
-        height: 450px;
-        bottom: 130px;
-        left: 10px;
-        position: absolute;
-        background-color: lightblue;
-        } */
 
     #question{
         width: 97%;
@@ -355,6 +338,11 @@ footer > ul a:hover {
         margin-bottom: -435px;
     }
 
+    #covertextball{
+        width: 250px;
+        height: auto;
+        margin-bottom: -435px;
+    }
 }
 
 @media screen and (max-width: 680px){
@@ -403,14 +391,6 @@ footer > ul a:hover {
         margin-bottom: -540px;
     }
 
-    /* #playheading{
-        width: fit-content;
-    } */
-
-    /* .paragraf{
-       display: flex;
-    } */
-
     #textcover{
         width: 97%;
         height: auto;
@@ -419,12 +399,13 @@ footer > ul a:hover {
     }
 
     #covertextball{
-        width: 97%;
-        float: left;
-        text-align: left;
+        width: 250px;
         height: auto;
-        padding: 0;
-        margin: 0;
+        left: 10px;
+        background-color: transparent;
+        color:white;
+        top: -600px;
+        margin-bottom: -540px;
     } */
 
     table{
@@ -433,31 +414,6 @@ footer > ul a:hover {
    margin: 0;
    }
 }
-
-@media screen and (max-width: 450px){
-
-/* #covertextplay{
-    width: 300px;
-    height: 450px;
-    bottom: 250px;
-    left: 10px;
-    position: absolute;
-    background-color: lightblue;
-    } */
-}
-
-@media screen and (max-width: 400px){
-
-    /* #covertextplay{
-        width: 97%;
-        height: 450px;
-        bottom: 90px;
-        left: 10px;
-        position: absolute;
-        color: white;
-        background-color: transparent;
-        } */
- }
 
         @media screen and (max-width: 370px){
 
