@@ -1,43 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
 /* clear margin*/
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 /* implement font */
-body{
-    font-family:lato,sans-serif;
+body {
+    font-family: lato, sans-serif;
     font-weight: 300;
 }
 
 /* style logo and menu*/
-header{
+header {
     background-color: darkblue;
     padding: 10px;
     height: 80px;
 }
 
-header a{
-    color: white; 
+header a {
+    color: white;
     text-transform: uppercase;
-    }
+}
 
 a:hover {
     text-decoration-line: underline;
     font-size: 120%;
     text-decoration-style: double;
-  }
+}
 
-header h1{
+header h1 {
     width: 49%;
     line-height: 80px;
     float: left;
     font-size: 300%;
 }
 
-header nav{
+header nav {
     font-family: lato, sans-serif;
     line-height: 80px;
     float: right;
@@ -45,7 +45,7 @@ header nav{
     text-align: right;
 }
 
-header li{
+header li {
     list-style-type: none;
     text-align: center;
     display: inline-block;
@@ -55,22 +55,22 @@ header li{
 }
 
 /* tennisimage home page*/
-#tennisimage{
+#tennisimage {
     width: 100%;
     /* padding-top: 148,148%; */
     height: 600px;
-   
+
     /* margin: 0 auto;
     background: url(../images/tennisball_home.jpg)no-repeat center center; */
     /* background-size: cover; */
-    background-color:white
-    background-repeat:no-repeat;
+    background-color: white 
+    /* background-repeat: no-repeat; */
     /* background-size: contain; */
     /* background-size: 100%; */
 }
 
 /* why play tennis with us home page*/
-#covertextplay{
+#covertextplay {
     background-color: lightblue;
     width: 600px;
     height: 280px;
@@ -80,33 +80,33 @@ header li{
     margin-bottom: -280px;
 }
 
-#playheading{
+#playheading {
     margin-left: 2px;
     padding: 2px;
 }
 
-.heading{
+.heading {
     margin: 2px;
     padding: 2px;
-    text-decoration: underline;   
+    text-decoration: underline;
 }
 
-.paragraf{ 
-   padding: 1px;
-   margin-left: 25px;
-   font-weight: bold;
+.paragraf {
+    padding: 1px;
+    margin-left: 25px;
+    font-weight: bold;
 }
 
 /* weekly scheduele home page*/
 
-#scheduleheading{
+#scheduleheading {
     background-color: lightblue;
     padding: 10px;
     text-decoration: underline;
     height: 30px;
-  }
-  
-#schedule{
+}
+
+#schedule {
     background-color: lightblue;
     height: 200px;
     padding: 1px;
@@ -117,25 +117,25 @@ header li{
     font-weight: bold;
 } */
 
-th{
+th {
     letter-spacing: 2px;
     font-size: 120%;
     text-decoration: underline;
     padding: 3px;
 }
 
-tr{
-   text-align: right;
+tr {
+    text-align: right;
 }
 
-td{
+td {
     margin: 2px;
     padding: 2px;
     font-weight: bold;
     font-size: 110%;
 }
 
-#textcover{
+#textcover {
     background-color: darkblue;
     opacity: 0.8;
     font-size: 150%;
@@ -150,33 +150,33 @@ td{
     text-align: center;
 }
 
-#here{
+#here {
     color: white;
 }
 
 /* style footer*/
 
-footer{
+footer {
     background-color: darkblue;
     height: 80px;
     padding: 10px;
 }
 
-footer > div {
+footer>div {
     color: white;
     float: left;
-    padding:10px;
+    padding: 10px;
     text-transform: uppercase;
 }
 
-footer  ul{
+footer ul {
     line-height: 80px;
     float: right;
     width: 49%;
     text-align: right;
 }
 
-footer li{
+footer li {
     list-style-type: none;
     text-align: center;
     display: inline-block;
@@ -184,24 +184,24 @@ footer li{
     margin-right: 20px;
 }
 
-footer a{
-    color: white; 
-    }
+footer a {
+    color: white;
+}
 
-footer > ul a:hover {
+footer>ul a:hover {
     font-size: 200%;
-  }
+}
 
-  /* easy tennis program*/
-  /* tennis image with text over image */
-  #tennisball{
+/* easy tennis program*/
+/* tennis image with text over image */
+#tennisball {
     height: 600px;
     margin: 0 auto;
     background: url(../images/tennisball_play.jpg)no-repeat center center;
     background-size: cover;
-  }
+}
 
-  #covertextball{
+#covertextball {
     background-color: lightblue;
     width: 600px;
     height: 280px;
@@ -209,31 +209,31 @@ footer > ul a:hover {
     left: 50px;
     top: -500px;
     margin-bottom: -300px;
-  }
+}
 
-  #joinheading{
+#joinheading {
     margin-left: 2px;
     padding: 2px;
 }
 
-.fontheading{
+.fontheading {
     margin: 2px;
     padding: 2px;
-    text-decoration: underline;   
+    text-decoration: underline;
 }
 
-.joinparagraf{ 
-   padding: 1px;
-   margin-left: 25px;
-   font-weight: bold;
+.joinparagraf {
+    padding: 1px;
+    margin-left: 25px;
+    font-weight: bold;
 }
 
-  /* .convertext{
+/* .convertext{
     margin: 15px;
   } */
 
 /*  Easy tennis program with heading*/
-#programheading{
+#programheading {
     background-color: lightblue;
     padding: 10px;
     text-decoration: underline;
@@ -247,185 +247,185 @@ footer > ul a:hover {
     font-weight: bold;
     /* font-size: 120%; */
     height: 200px;
-  }
-
-  .underline{
-    text-decoration: underline;
-  }
-
-  .insideflex{
-    width: 16%;
-    padding: 10px;
-  }
-
-/* Sign up page */
-#main{
-    background-color: lightblue; 
 }
 
-#mainheading{
+.underline {
+    text-decoration: underline;
+}
+
+.insideflex {
+    width: 16%;
+    padding: 10px;
+}
+
+/* Sign up page */
+#main {
+    background-color: lightblue;
+}
+
+#mainheading {
     padding: 10px;
     background-color: lightblue;
     text-decoration: underline;
     text-align: center;
 }
 
-.fieldset{
+.fieldset {
     width: 90%;
     font-weight: bold;
     padding: 10px;
     margin: 0 auto;
 }
 
-.fieldsetheading{
+.fieldsetheading {
     text-decoration: underline;
 }
 
 /*media queries*/
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1300px) {
 
-     #table{
+    #table {
         width: 97%;
     }
 
-    #scheduleheading{
+    #scheduleheading {
         height: auto;
     }
 
-    #schedule{
-        height: auto; 
-    }
-
-    #programheading{
+    #schedule {
         height: auto;
     }
 
-    #flexcontainerfirst{
+    #programheading {
+        height: auto;
+    }
+
+    #flexcontainerfirst {
         flex-wrap: wrap;
         height: auto;
     }
 
-    .insideflex{
+    .insideflex {
         width: auto;
-    } 
+    }
 }
 
-@media screen and (max-width: 1200px){
-    #covertextplay{
+@media screen and (max-width: 1200px) {
+    #covertextplay {
         width: 400px;
         height: auto;
         margin-bottom: -360px;
     }
 
-    #covertextball{
+    #covertextball {
         width: 400px;
         height: auto;
         margin-bottom: -360px;
-    }  
+    }
 }
 
-@media screen and (max-width: 840px){
+@media screen and (max-width: 840px) {
 
-    #question{
+    #question {
         width: 97%;
     }
 }
 
-@media screen and (max-width: 780px){
-    #covertextplay{
+@media screen and (max-width: 780px) {
+    #covertextplay {
         width: 250px;
         height: auto;
         margin-bottom: -435px;
     }
 
-    #covertextball{
+    #covertextball {
         width: 250px;
         height: auto;
         margin-bottom: -435px;
     }
 }
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 680px) {
 
-    header h1{
+    header h1 {
         width: 97%;
         line-height: 20px;
     }
 
-    header nav{
-       float: left;
-       width: 97%;
-       text-align: left;
-       padding: 0px;    
+    header nav {
+        float: left;
+        width: 97%;
+        text-align: left;
+        padding: 0px;
     }
 
-    footer{
+    footer {
         height: 100px;
     }
 
-    footer  ul{
-    float: left;
-    width: 97%;
-    text-align: left;
-    line-height: 20px;
+    footer ul {
+        float: left;
+        width: 97%;
+        text-align: left;
+        line-height: 20px;
     }
 
-    footer > ul a:hover {
+    footer>ul a:hover {
         font-size: 100%;
-      }
+    }
 
-      footer > div {
-       font-size: 80%;
+    footer>div {
+        font-size: 80%;
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
 
-    #covertextplay{
+    #covertextplay {
         width: 250px;
         height: auto;
         left: 10px;
         background-color: transparent;
-        color:white;
+        color: white;
         top: -600px;
         margin-bottom: -540px;
     }
 
-    #textcover{
+    #textcover {
         width: 97%;
         height: auto;
         padding: 0;
         margin: 0;
     }
 
-    #covertextball{
+    #covertextball {
         width: 250px;
         height: auto;
         left: 10px;
         background-color: transparent;
-        color:white;
+        color: white;
         top: -600px;
         margin-bottom: -540px;
-    } */
+    }
 
-    table{
-   font-size: 80%;
-   width: 97%;
-   margin: 0;
-   }
+    */ table {
+        font-size: 80%;
+        width: 97%;
+        margin: 0;
+    }
 }
 
-        @media screen and (max-width: 370px){
+@media screen and (max-width: 370px) {
 
-            table{
-                font-size: 60%;
-                }
+    table {
+        font-size: 60%;
+    }
 
-                header h1{
-                    font-size: 200%;
-                }
+    header h1 {
+        font-size: 200%;
+    }
 
-                header nav{
-                 font-size: 80%;
-               }
-               }
+    header nav {
+        font-size: 80%;
+    }
+}
