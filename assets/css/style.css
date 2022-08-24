@@ -145,7 +145,7 @@ td {
 
 #textcover {
     background-color: darkblue;
-    opacity: 0.8;
+    opacity: 0.9;
     font-size: 150%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -397,7 +397,7 @@ footer>ul a:hover {
         background-color: transparent;
         color: white;
         top: -600px;
-        margin-bottom: -540px;
+        margin-bottom: -450px;
     }
 
     #textcover {
@@ -405,6 +405,7 @@ footer>ul a:hover {
         height: auto;
         padding: 0;
         margin: 0;
+        float: left;
     }
 
     #covertextball {
