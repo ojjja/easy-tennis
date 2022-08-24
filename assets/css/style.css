@@ -75,9 +75,6 @@ header li {
     margin-right: auto; */
     /* width: 100%; */
     height: 600px;
-    
-   
-
 }
 
 /* why play tennis with us home page*/
@@ -88,7 +85,7 @@ header li {
     position: relative;
     left: 50px;
     top: -500px;
-    margin-bottom: -280px;
+    margin-bottom: -285px;
 }
 
 #playheading {
@@ -346,7 +343,7 @@ footer>ul a:hover {
     #covertextplay {
         width: 250px;
         height: auto;
-        margin-bottom: -435px;
+        margin-bottom: -437px;
     }
 
     #covertextball {
@@ -368,6 +365,7 @@ footer>ul a:hover {
         width: 97%;
         text-align: left;
         padding: 0px;
+        line-height: 60px;
     }
 
     footer {
