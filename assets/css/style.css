@@ -56,17 +56,28 @@ header li {
 
 /* tennisimage home page*/
 #tennisimage {
-    width: 100%;
+    /* width: 100%; */
     /* padding-top: 148,148%; */
-    height: 600px;
-
+    
+    /* aspect-ratio:13/20; */
+    
     /* margin: 0 auto;
     background: url(../images/tennisball_home.jpg)no-repeat center center; */
     /* background-size: cover; */
-    background-color: white 
+    /* background-color: white  */
     /* background-repeat: no-repeat; */
     /* background-size: contain; */
     /* background-size: 100%; */
+    object-fit: cover;
+    width: 100%;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    /* width: 100%; */
+    height: 600px;
+    
+   
+
 }
 
 /* why play tennis with us home page*/
