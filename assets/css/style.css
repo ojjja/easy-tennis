@@ -110,6 +110,7 @@ header li {
 #scheduleheading {
     background-color: lightblue;
     padding: 10px;
+    padding-left: 50px;
     text-decoration: underline;
     height: 30px;
 }
@@ -119,6 +120,10 @@ header li {
     height: 200px;
     padding: 1px;
     font-weight: bold;
+}
+
+#table{
+    width: 40%;
 }
 
 /* .timeheading{
@@ -294,15 +299,7 @@ footer>ul a:hover {
 @media screen and (max-width: 1300px) {
 
     #table {
-        width: 97%;
-    }
-
-    #scheduleheading {
-        height: auto;
-    }
-
-    #schedule {
-        height: auto;
+        width: 50%;
     }
 
     #programheading {
@@ -330,6 +327,28 @@ footer>ul a:hover {
         width: 400px;
         height: auto;
         margin-bottom: -360px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+    /* #scheduleheading {
+        height: auto;
+    } */
+    #schedule{
+        height: auto; 
+    }
+
+        #textcover {
+        width: 70%;
+        /* height: auto;
+        padding: 0;
+        margin: 0; */
+        float: left;
+    }
+
+    #table{
+        width: 70%;
     }
 }
 
@@ -389,6 +408,20 @@ footer>ul a:hover {
     }
 }
 
+@media screen and (max-width: 630px){
+
+    #textcover {
+        width: 90%;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: auto;
+}
+
+   #table{
+    width: 90%;
+   }
+}
 @media screen and (max-width: 500px) {
 
     #covertextplay {
@@ -401,13 +434,13 @@ footer>ul a:hover {
         margin-bottom: -450px;
     }
 
-    #textcover {
+    /* #textcover {
         width: 97%;
         height: auto;
         padding: 0;
         margin: 0;
         float: left;
-    }
+    } */
 
     #covertextball {
         width: 250px;
@@ -419,10 +452,16 @@ footer>ul a:hover {
         margin-bottom: -540px;
     }
 
-    */ table {
-        font-size: 80%;
-        width: 97%;
+        table {
+        font-size: 70%;
+        width: 95%;
         margin: 0;
+    }
+
+    #scheduleheading {
+        height: auto;
+        text-align: center;
+        padding-left: 0;
     }
 }
 
