@@ -452,6 +452,10 @@ footer>ul a:hover {
         margin-bottom: -540px;
     }
 
+    #joinheading{
+        width: 140%;
+    }
+
         table {
         font-size: 70%;
         width: 95%;
@@ -478,4 +482,9 @@ footer>ul a:hover {
     header nav {
         font-size: 80%;
     }
+
+    #joinheading{
+        width: 100%;
+    }
+
 }
