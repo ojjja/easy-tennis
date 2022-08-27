@@ -140,7 +140,8 @@ td {
     margin: 2px;
     padding: 2px;
     font-weight: bold;
-    font-size: 110%;
+    /* font-size: 110%; */
+    /* font-family: lato, sans-serif; */
 }
 
 #textcover {
