@@ -67,7 +67,7 @@
   - They can also see starting times, finnih time, when the food is served.
   - There is also a short slogan for every program to make it easy to choose right program.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![aasy tennis programs](https://github.com/ojjja/easy-tennis/blob/main/assets/images/easttennisprogram.png)
 
 - __The Sign Up Page__
 
