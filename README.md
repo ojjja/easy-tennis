@@ -12,7 +12,7 @@
 - All pages have contact info, social media, and a navigation bar to all pages so it is easy to follow or contac the club.
 - The reason to dark and light blue color is beacuse it is the color of Dublin.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup](https://github.com/ojjja/easy-tennis/blob/main/assets/images/Responsive.png)
 
 ## Features 
 
