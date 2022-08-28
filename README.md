@@ -37,7 +37,7 @@
   - A social reason
   - And then invite to learn more and sign up.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https://github.com/ojjja/easy-tennis/blob/main/assets/images/homepageimage_and_text.png)
 
 - __Weekly Schedule Section__
 
