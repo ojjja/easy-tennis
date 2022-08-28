@@ -117,9 +117,9 @@
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - In the GitHub repository, navigate to the Settings tab and enter the repository name
+  - From GitHub Pages bellow Build and deployment the source section drop-down menu, select deploy from a branch and branch main
+  - The link will be found at "Your site is live at" the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The site is live at https://ojjja.github.io/easy-tennis/
 
