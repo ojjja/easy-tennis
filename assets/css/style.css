@@ -56,25 +56,9 @@ header li {
 
 /* tennisimage home page*/
 #tennisimage {
-    /* width: 100%; */
-    /* padding-top: 148,148%; */
-    
-    /* aspect-ratio:13/20; */
-    
-    /* margin: 0 auto;
-    background: url(../images/tennisball_home.jpg)no-repeat center center; */
-    /* background-size: cover; */
-    /* background-color: white  */
-    /* background-repeat: no-repeat; */
-    /* background-size: contain; */
-    /* background-size: 100%; */
+    height: 600px;
     object-fit: cover;
     width: 100%;
-    /* display: block;
-    margin-left: auto;
-    margin-right: auto; */
-    /* width: 100%; */
-    height: 600px;
 }
 
 /* why play tennis with us home page*/
@@ -106,7 +90,6 @@ header li {
 }
 
 /* weekly scheduele home page*/
-
 #scheduleheading {
     background-color: lightblue;
     padding: 10px;
@@ -126,10 +109,6 @@ header li {
     width: 40%;
 }
 
-/* .timeheading{
-    font-weight: bold;
-} */
-
 th {
     letter-spacing: 2px;
     font-size: 120%;
@@ -145,8 +124,6 @@ td {
     margin: 2px;
     padding: 2px;
     font-weight: bold;
-    /* font-size: 110%; */
-    /* font-family: lato, sans-serif; */
 }
 
 #textcover {
@@ -169,7 +146,6 @@ td {
 }
 
 /* style footer*/
-
 footer {
     background-color: darkblue;
     height: 80px;
@@ -242,10 +218,6 @@ footer>ul a:hover {
     font-weight: bold;
 }
 
-/* .convertext{
-    margin: 15px;
-  } */
-
 /*  Easy tennis program with heading*/
 #programheading {
     background-color: lightblue;
@@ -293,24 +265,17 @@ footer>ul a:hover {
 
 .fieldsetheading {
     text-decoration: underline;
-}
-
-#lastsignup{
-    display: inline-block;
-    /* width: 10%; */
-    /* text-align: center; */
-    /* list-style-type: none; */
-    /* margin: 0 auto;
-    text-align: center; */
-    position: relative;
-    left: 50%;
-    /* height: 50px; */
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-    
+}   
 
 /*media queries*/
+/* @media screen and (max-width: 1400px) {
+
+    .fieldset {
+     width: 65%;
+    }
+
+} */
+
 @media screen and (max-width: 1300px) {
 
     #table {
@@ -347,18 +312,12 @@ footer>ul a:hover {
 
 @media screen and (max-width: 1000px){
 
-    /* #scheduleheading {
-        height: auto;
-    } */
-    #schedule{
+      #schedule{
         height: auto; 
     }
 
         #textcover {
         width: 70%;
-        /* height: auto;
-        padding: 0;
-        margin: 0; */
         float: left;
     }
 
@@ -448,14 +407,6 @@ footer>ul a:hover {
         top: -600px;
         margin-bottom: -450px;
     }
-
-    /* #textcover {
-        width: 97%;
-        height: auto;
-        padding: 0;
-        margin: 0;
-        float: left;
-    } */
 
     #covertextball {
         width: 250px;
