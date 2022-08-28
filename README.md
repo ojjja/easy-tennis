@@ -60,6 +60,7 @@
 
 - __The Play page image__
   - The image has an tennis ball to focus on the method the clubb use with a offer to test or join the club with an action to sign up.
+  - 
     ![Image and Text Play Page](https://github.com/ojjja/easy-tennis/blob/main/assets/images/homepageimage_and_textpp.png)
 
 - __Easy tennis programs__
@@ -81,10 +82,6 @@
 
 
 ![Sign Up](https://github.com/ojjja/easy-tennis/blob/main/assets/images/signupform.png)
-
-### Features Left to Implement
-
-- Another feature idea
 
 ## Testing 
 
