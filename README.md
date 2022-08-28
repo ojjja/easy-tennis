@@ -95,18 +95,17 @@
 - Sign up form: go over sign up form features to ensure that they work as intended.
 - Links: go over links features to ensure that they work as intended.
 - Menus: go over menu features to ensure that they work as intended.
-- Spelling: go over spelling to ensure that the mening of the word and sentence.
 
 ### Buggs
 
-- Fixed buggs: Table
-- Unfixed buggs
-- other problems
+- Fixed buggs: No Fixed buggs
+- Unfixed buggs: No unfixed buggs 
+- other problems:"Style flexbox", "Style fieldset"
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](http://jigsaw.w3.org/css-validator/validator$link)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator#warnings)
 - CSS
@@ -127,44 +126,27 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+In this section, reference where I got the content, media and extra help from.
 
 ### Content 
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- Navigation was taken from ....Love Running
-- Inspiration was taken from ..... Love Running and coffe house
-- media queri was taken from ......Love running
-- Flex was taken from .........www.w3schools.com/css
-- Read me file taken from ...... Love Runnig
+- Navigation was taken from Love Running
+- Inspiration was taken from Love Running and coffe house
+- Flex was taken from www.w3schools.com/css
+- Read me file taken from Love Runnig
+- required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" in sign up form was taken from www.w3schools.com/css
+- social media in footer was taken from Love running
+- fieldset was taken from www.w3schools.com/css
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-- The image in the header was taken from ......Pexels
+- The photos used on the home and sign up page are from Pexelshttps://www.pexels.com
 
 ### Mentor
 - The tennis ball piture.
 - Links for Picture to choose from.
-- All errors and solutions tips.
-- Tips for searching on internet for solutions.
-- All other the tips from my mentor meeting that I have tried to follow
+- All errors and solutions tips regarding sign up form
+- Tips for searching on internet.
+- All other the tips from my mentor meeting that I recived
  
-
-## Other General Project Advice
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
