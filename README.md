@@ -111,7 +111,7 @@
 - Accesibility
 
 ### Lighthouse Testing
-![Lighthouse Testing] (https://github.com/ojjja/easy-tennis/blob/main/assets/images/Lighthouse.png)
+![Lighthouse Testing](https://github.com/ojjja/easy-tennis/blob/main/assets/images/Lighthouse.png)
 
 ## Deployment
 
