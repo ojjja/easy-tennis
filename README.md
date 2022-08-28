@@ -12,7 +12,7 @@
 - All pages have contact info, social media, and a navigation bar to all pages so it is easy to follow or contac the club.
 - The reason to dark and light blue color is beacuse it is the color of Dublin.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup](https://github.com/ojjja/easy-tennis/blob/main/assets/images/Responsive.png)
 
 ## Features 
 
@@ -24,7 +24,7 @@
 
   - To make it easy for users to navigate through the site there is a navigation bar on the top of every page. Here you can find the club logo which include a link to start page on the left and on the right the menue where you can "click" yourself to the different pages: Home, Play and Sign Up.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](https://github.com/ojjja/easy-tennis/blob/main/assets/images/Nav.png)
 
 - __The landing page image__
 
@@ -37,21 +37,21 @@
   - A social reason
   - And then invite to learn more and sign up.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https://github.com/ojjja/easy-tennis/blob/main/assets/images/homepageimage_and_text.png)
 
 - __Weekly Schedule Section__
 
   - In this section the user can see all the club offer in a weekly table including day, time and program. There is also a text that invite you to learn more about the programs of the club to make it easy to choose from.
 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Weekly Schedule](https://github.com/ojjja/easy-tennis/blob/main/assets/images/weekly_tennisschedule.png)
 
 - __The Footer__ 
 
   - To make it easy to contact or follow the club on social media there is a footer created on the botom of every page. Here the user can find phone numer and an adress if they the user want to visit the clib. 
   - They can also find the social media of the club by follow the links in the footer.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/ojjja/easy-tennis/blob/main/assets/images/footer.png)
 
 - __Play__
 
@@ -61,13 +61,15 @@
 - __The Play page image__
   - The image has an tennis ball to focus on the method the clubb use with a offer to test or join the club with an action to sign up.
 
+   ![Image and Text Play Page](https://github.com/ojjja/easy-tennis/blob/main/assets/images/homepageimage_and_textpp.png)
+
 - __Easy tennis programs__
   - Here you can see what each program is about and what is included. 
   - The user can see who is the trainer, playtime and number of player per court.
   - They can also see starting times, finnih time, when the food is served.
   - There is also a short slogan for every program to make it easy to choose right program.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+    ![easy tennis programs](https://github.com/ojjja/easy-tennis/blob/main/assets/images/easttennisprogram.png)
 
 - __The Sign Up Page__
 
@@ -79,11 +81,8 @@
   - The club also need these details to be able to contact them, to see if they have capacity for the requested programs and billing information.
 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Sign Up](https://github.com/ojjja/easy-tennis/blob/main/assets/images/signupform.png)
 
-### Features Left to Implement
-
-- Another feature idea
 
 ## Testing 
 
@@ -94,20 +93,22 @@
 - Sign up form: go over sign up form features to ensure that they work as intended.
 - Links: go over links features to ensure that they work as intended.
 - Menus: go over menu features to ensure that they work as intended.
-- Spelling: go over spelling to ensure that the mening of the word and sentence.
 
 ### Buggs
 
-- Fixed buggs: Table
-- Unfixed buggs
-- other problems
+- Fixed buggs: No Fixed buggs
+- Unfixed buggs: No unfixed buggs 
+- other problems:"Style flexbox", "Style fieldset"
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator#warnings)
+- CSS
+- Accesibility
+![Lighthouse Testing](https://github.com/ojjja/easy-tennis/blob/main/assets/images/Lighthouse.png)
 - Accesibility
 
 
@@ -132,24 +133,24 @@ You can break the credits section up into Content and Media, depending on what y
 ### Content 
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- Navigation was taken from ....Love Running
-- Inspiration was taken from ..... Love Running and coffe house
-- media queri was taken from ......Love running
-- Flex was taken from .........www.w3schools.com/css
-- Read me file taken from ...... Love Runnig
+- Navigation was taken from Love Running
+- Inspiration was taken from Love Running and coffe house
+- Flex was taken from www.w3schools.com/css
+- Read me file taken from Love Runnig
+- required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" in sign up form was taken from www.w3schools.com/css
+- social media in footer was taken from Love running
+- fieldset was taken from www.w3schools.com/css
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-- The image in the header was taken from ......Pexels
+- The photos used on the home and sign up page are from Pexelshttps://www.pexels.com
 
 ### Mentor
 - The tennis ball piture.
 - Links for Picture to choose from.
-- All errors and solutions tips.
-- Tips for searching on internet for solutions.
-- All other the tips from my mentor meeting that I have tried to follow
+- All errors and solutions tips regarding sign up form
+- Tips for searching on internet.
+- All other the tips from my mentor meeting that I recived
  
 
 ## Other General Project Advice
