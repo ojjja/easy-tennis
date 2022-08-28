@@ -119,7 +119,7 @@ This section should describe the process you went through to deploy the project 
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
-
+The Link is https://ojjja.github.io/easy-tennis/
 
 ## Credits 
 
