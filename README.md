@@ -24,7 +24,7 @@
 
   - To make it easy for users to navigate through the site there is a navigation bar on the top of every page. Here you can find the club logo which include a link to start page on the left and on the right the menue where you can "click" yourself to the different pages: Home, Play and Sign Up.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](https://github.com/ojjja/easy-tennis/blob/main/assets/images/Nav.png)
 
 - __The landing page image__
 
