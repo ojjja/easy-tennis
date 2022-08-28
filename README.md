@@ -1,5 +1,5 @@
 
-# EASY TENNIS
+# EASY TENNIS 
 
 - Tennis is a difficult sport but it does not have to be that for the members.
 - This is a local tennis clubb website for the local community that offers an easy method and funny way to play tennis. 
