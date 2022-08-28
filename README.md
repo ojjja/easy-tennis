@@ -118,6 +118,7 @@ This section should describe the process you went through to deploy the project 
   - From GitHub Pages bellow Build and deployment the source section drop-down menu, select deploy from a branch and branch main
   - The link will be found at "Your site is live at" the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
+You will find the easy tennis project here: https://github.com/ojjja/easy-tennis
 The site is live at https://ojjja.github.io/easy-tennis/
 
 ## Credits 
