@@ -44,7 +44,7 @@
   - In this section the user can see all the club offer in a weekly table including day, time and program. There is also a text that invite you to learn more about the programs of the club to make it easy to choose from.
 
 
-![Club Ethos](https://github.com/ojjja/easy-tennis/blob/main/assets/images/weekly_tennisschedule.png)
+![Weekly Schedule](https://github.com/ojjja/easy-tennis/blob/main/assets/images/weekly_tennisschedule.png)
 
 - __The Footer__ 
 
