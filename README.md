@@ -67,7 +67,7 @@
   - They can also see starting times, finnih time, when the food is served.
   - There is also a short slogan for every program to make it easy to choose right program.
 
-![aasy tennis programs](https://github.com/ojjja/easy-tennis/blob/main/assets/images/easttennisprogram.png)
+![easy tennis programs](https://github.com/ojjja/easy-tennis/blob/main/assets/images/easttennisprogram.png)
 
 - __The Sign Up Page__
 
@@ -111,7 +111,7 @@
 - Accesibility
 
 ### Lighthouse Testing
-[Lighthouse Testing] (https://github.com/ojjja/easy-tennis/blob/main/assets/images/Lighthouse.png)
+![Lighthouse Testing] (https://github.com/ojjja/easy-tennis/blob/main/assets/images/Lighthouse.png)
 
 ## Deployment
 
