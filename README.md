@@ -79,7 +79,7 @@
   - The club also need these details to be able to contact them, to see if they have capacity for the requested programs and billing information.
 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Sign Up](https://github.com/ojjja/easy-tennis/blob/main/assets/images/signupform.png)
 
 ### Features Left to Implement
 
