@@ -108,11 +108,9 @@
 - HTML
   - No errors were returned when passing through the official [W3C validator](http://jigsaw.w3.org/css-validator/validator$link)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator$link)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator#warnings)
 - CSS
 - Accesibility
-
-### Lighthouse Testing
 ![Lighthouse Testing](https://github.com/ojjja/easy-tennis/blob/main/assets/images/Lighthouse.png)
 
 ## Deployment
