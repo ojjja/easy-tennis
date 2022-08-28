@@ -51,7 +51,7 @@
   - To make it easy to contact or follow the club on social media there is a footer created on the botom of every page. Here the user can find phone numer and an adress if they the user want to visit the clib. 
   - They can also find the social media of the club by follow the links in the footer.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/ojjja/easy-tennis/blob/main/assets/images/footer.png)
 
 - __Play__
 
