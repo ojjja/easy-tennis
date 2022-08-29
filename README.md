@@ -48,7 +48,7 @@
 
 - __The Footer__ 
 
-  - To make it easy to contact or follow the club on social media there is a footer created on the botom of every page. Here the user can find phone numer and an adress if they the user want to visit the clib. 
+  - To make it easy to contact or follow the club on social media there is a footer created on the botom of every page. Here the user can find phone numer and an adress if they the user want to visit the club. 
   - They can also find the social media of the club by follow the links in the footer.
 
 ![Footer](https://github.com/ojjja/easy-tennis/blob/main/assets/images/footer.png)
@@ -60,6 +60,8 @@
 
 - __The Play page image__
   - The image has an tennis ball to focus on the method the clubb use with a offer to test or join the club with an action to sign up.
+  - 
+    ![Image and Text Play Page](https://github.com/ojjja/easy-tennis/blob/main/assets/images/homepageimage_and_textpp.png)
 
    ![Image and Text Play Page](https://github.com/ojjja/easy-tennis/blob/main/assets/images/homepageimage_and_textpp.png)
 
@@ -70,6 +72,8 @@
   - There is also a short slogan for every program to make it easy to choose right program.
 
     ![easy tennis programs](https://github.com/ojjja/easy-tennis/blob/main/assets/images/easttennisprogram.png)
+=======
+![easy tennis programs](https://github.com/ojjja/easy-tennis/blob/main/assets/images/easttennisprogram.png)
 
 - __The Sign Up Page__
 
@@ -83,6 +87,7 @@
 
 ![Sign Up](https://github.com/ojjja/easy-tennis/blob/main/assets/images/signupform.png)
 
+=======
 
 ## Testing 
 
@@ -109,8 +114,12 @@
 - CSS
 - Accesibility
 ![Lighthouse Testing](https://github.com/ojjja/easy-tennis/blob/main/assets/images/Lighthouse.png)
+=======
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator#warnings)
+- CSS
 - Accesibility
-
+![Lighthouse Testing](https://github.com/ojjja/easy-tennis/blob/main/assets/images/Lighthouse.png)
 
 ## Deployment
 
@@ -125,13 +134,16 @@ This section should describe the process you went through to deploy the project 
 You will find the easy tennis project here: https://github.com/ojjja/easy-tennis 
 
 The site is live at https://ojjja.github.io/easy-tennis/
+=======
+  - The link will be found at "Your site is live at" the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
+
+You will find the easy tennis project here: https://github.com/ojjja/easy-tennis
+The site is live at https://ojjja.github.io/easy-tennis/
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+In this section, reference where I got the content, media and extra help from.
 
 ### Content 
 
@@ -154,3 +166,4 @@ You can break the credits section up into Content and Media, depending on what y
 - All errors and solutions tips regarding sign up form
 - Tips for searching on internet.
 - All other the tips from my mentor meeting that I recived
+
